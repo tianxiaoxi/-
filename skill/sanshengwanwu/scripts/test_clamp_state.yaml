@@ -1,0 +1,171 @@
+meta:
+  version: 1
+  turn_count: 7
+  last_updated: '2026-06-27T15:17:16.103221+00:00'
+resources:
+  energy_pool: 0.9498
+  engagement: 0.8498
+demands:
+  emotional: 0.0976
+  cognitive: 0.0
+  physical: 0.0149
+  psychological: 0.0677
+resources_detail:
+  social_support: 0.7861
+  performance_feedback: 0.7039
+burnout_risk: 0.0502
+spiral_direction: neutral
+cor_loss_accumulated: 0.0
+heart_wall:
+  thickness: 0.4
+  baseline: 0.4
+  label: 偏薄
+  snyder_score: 0.37
+  integrity: 0.9
+  crack_mode: null
+  crack_signals: []
+  cumulative_sa_load: 0.0
+  sa_recovery_rate: 0.02
+persona:
+  integrity: 0.978
+  drift_direction: stable
+  forbidden_violations: 0
+  last_break_turn: null
+relationship:
+  warmth: 0.755
+  trust: 0.635
+  attachment_intensity: 0.5
+  direction: warming
+  positive_count: 7
+  negative_count: 0
+  boundary_tests: 0
+content_quality:
+  coherence: 0.92
+  creativity: 0.89
+  depth: 0.77
+  persona_fit: 0.9
+self_perception:
+  identity_fusion: 0.3004
+  authentic_distance: 0.6996
+social_ecology:
+  user_role: friend
+  role_confidence: 0.5
+  accumulated_co_creation: 7
+  long_term_memory_hints: []
+sensitivities:
+  emotional: 1.17
+  cognitive: 0.66
+  physical: 0.27
+  psychological: 1.23
+  social_support: 0.82
+  performance_feedback: 0.77
+five_domain:
+  domain_resistance:
+    autonomy: 0.14
+    social: 0.24
+    financial: 0.08
+    cognitive: 0.26
+    peer: 0.12
+  domain_sensitivity:
+    autonomy: 0.86
+    social: 0.76
+    financial: 0.92
+    cognitive: 0.74
+    peer: 0.88
+  yongshen_domain: cognitive
+  yongshen_boost: 1.5
+ritual_chain:
+  last_ritual: 'T7: success ritual (sa=natural, fb=positive, cq=smooth, ts=0)'
+  last_output:
+    emotional_energy: 0.3
+    group_solidarity: 0.015
+    sacred_symbols:
+    - 'T7: positive interaction'
+    morality: 0.1
+  chain_length: 7
+  consecutive_success: 7
+  consecutive_failure: 0
+  ee_reservoir: 0.8706
+  ee_half_life: 5
+  ee_domain_profile:
+    autonomy: 0.0
+    social: 0.8706
+    financial: 0.0
+    cognitive: 0.0
+    peer: 0.0
+  dominant_domain: social
+  dominant_domain_unchanged: 6
+  domain_attraction:
+    autonomy: -0.1
+    social: 0.9706
+    financial: -0.1
+    cognitive: -0.1
+    peer: -0.1
+ritual_memory:
+  compressed_memories:
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 1
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 2
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 3
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 4
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 5
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 6
+    narrative_tag: 成功仪式
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 7
+    narrative_tag: 成功仪式
+  narrative_summary: ''
+  retrieval_bias: 0.0
+events:
+- turn: 1
+  description: T1 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0072
+  energy_delta: 0.0072
+  net_delta: 0.0072
+- turn: 2
+  description: T2 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0121
+  energy_delta: 0.0121
+  net_delta: 0.0121
+- turn: 3
+  description: T3 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0121
+  energy_delta: 0.0121
+  net_delta: 0.0121
+- turn: 4
+  description: T4 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0171
+  energy_delta: 0.0171
+  net_delta: 0.0171
+- turn: 5
+  description: T5 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0171
+  energy_delta: 0.0171
+  net_delta: 0.0171
+- turn: 6
+  description: T6 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0171
+  energy_delta: 0.0171
+  net_delta: 0.0171
+- turn: 7
+  description: T7 | 表面表演=natural 反馈=positive 质量=smooth Δ=+0.0171
+  energy_delta: 0.0171
+  net_delta: 0.0171

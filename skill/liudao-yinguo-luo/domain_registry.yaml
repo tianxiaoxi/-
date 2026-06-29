@@ -1,0 +1,214 @@
+# 六道因果络 · 领域知识注册表
+# 每个领域条目指向其领域知识文件（domain_knowledge/ 目录下）
+
+domains:
+  国家:
+    domain_file: "domain_knowledge/国家.md"
+    status: "已有完整映射"
+    description: "主权国家/高度自治地区的六维度分析映射"
+    triggers_examples:
+      - "美国"
+      - "俄罗斯"
+      - "日本"
+      - "印度"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "被制裁/被施压/被侵犯主权/被国际法庭审判"
+        indicators: "安理会否决权争端、制裁升级信号、主权争议公开化"
+      social:
+        label: "社会域（印星）"
+        events: "被孤立/被接纳/盟友背叛或支持/国际认可度变化"
+        indicators: "外交访问频次、多边组织加入或退出、盟友联合声明"
+      financial:
+        label: "财务域（财星）"
+        events: "经济制裁/贸易萎缩/资本外逃/外援断流"
+        indicators: "GDP增速、FDI流入、贸易多元化指数、外汇储备"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "科技创新突破/文化输出成败/国际话语权变化"
+        indicators: "专利数、诺贝尔奖、学术引用、文化产品出口"
+      peer:
+        label: "同侪域（比劫）"
+        events: "国际排名变化/地区领导权竞争/与同级国家比较"
+        indicators: "全球竞争力指数、Soft Power 30、HDI排名变化"
+
+  品牌/公司:
+    domain_file: "domain_knowledge/品牌-公司.md"
+    status: "已有完整映射"
+    description: "公司/品牌的六维度人格化分析映射"
+    triggers_examples:
+      - "华为"
+      - "苹果"
+      - "特斯拉"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "监管调查/被竞对起诉/舆论危机/管理层被挑战"
+        indicators: "反垄断调查、集体诉讼、CEO被迫辞职信号"
+      social:
+        label: "社会域（印星）"
+        events: "用户口碑崩塌或爆发/品牌被认可或抵制/粉丝社区变化"
+        indicators: "NPS趋势、社交媒体情感分析、品牌健康度指数"
+      financial:
+        label: "财务域（财星）"
+        events: "营收下滑/融资失败/现金流危机/股价暴跌"
+        indicators: "ARR/MRR、毛利率、LTV/CAC、现金跑道"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "产品创新成败/R&D突破/专利产出/创意枯竭"
+        indicators: "新产品发布频率、R&D投入比、专利增长、技术博客活跃度"
+      peer:
+        label: "同侪域（比劫）"
+        events: "市场份额变化/竞品超越/行业排名/估值比较"
+        indicators: "市场份额、Forrester/Gartner象限、Crunchbase排名"
+
+  虚拟主播:
+    domain_file: "domain_knowledge/虚拟主播.md"
+    status: "已有完整映射"
+    description: "虚拟主播的六维度复盘映射"
+    triggers_examples:
+      - "虚拟主播"
+      - "VTuber"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "被平台处罚/被批评/被控制/被迫改内容/中之人信息被曝光威胁"
+        indicators: "平台警告、粉丝批评密度、被迫更换内容频率、中之人相关负面搜索量"
+      social:
+        label: "社会域（印星）"
+        events: "被认可/被冷落/粉丝流失或增长/社区氛围变化/联动合作变化"
+        indicators: "粉丝增长率、弹幕情感分析、社区活跃度、二创作品数量"
+      financial:
+        label: "财务域（财星）"
+        events: "流水下降/赞助丢失/收入结构恶化/SC/舰长数量波动"
+        indicators: "SC转换率、打赏趋势、赞助续约率、舰长留存率"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "创作瓶颈/内容创新/节目质量变化/直播频率异常"
+        indicators: "内容多样性指数、原创比例、粉丝互动深度、新企划发布频率"
+      peer:
+        label: "同侪域（比劫）"
+        events: "同行比较/联动效果/排名变化/同期出道比较"
+        indicators: "平台排名、联动数据、同行粉丝重叠率、同期生对比"
+
+  真人主播:
+    domain_file: "domain_knowledge/真人主播.md"
+    status: "已有完整映射"
+    description: "真人直播主播的六维度复盘映射"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "被平台处罚/被网暴/被MCN强制签约/被迫直播/私生活被曝光"
+        indicators: "平台警告、网络暴力热搜、合同纠纷公开、被迫公告频率"
+      social:
+        label: "社会域（印星）"
+        events: "被认可/被冷落/粉丝流失或增长/社交媒体口碑变化"
+        indicators: "粉丝增长率、社交平台情感分析、直播弹幕情感密度、铁粉占比变化"
+      financial:
+        label: "财务域（财星）"
+        events: "礼物收入下降/品牌合作丢失/订阅减少/带货转化下滑"
+        indicators: "打赏趋势、品牌合作续约率、订阅数波动、带货GMV变化"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "创作瓶颈/内容创新/镜头表现力变化/直播风格转型"
+        indicators: "内容类型多样性、直播频次异常、策划新意度、观众停留时长"
+      peer:
+        label: "同侪域（比劫）"
+        events: "同行比较/联动效果/排名变化/同分区竞争"
+        indicators: "平台分区排名、联动数据、同行观众重叠率、竞争主播动态"
+
+  语音主播:
+    domain_file: "domain_knowledge/语音主播.md"
+    status: "已有完整映射"
+    description: "纯语音/音频主播的六维度复盘映射"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "被平台限流/被听众批评/声音身份被曝光/被迫调整声线或内容"
+        indicators: "平台限流通知、听众负面评论密度、现实身份搜索量上升、声线被迫变化频率"
+      social:
+        label: "社会域（印星）"
+        events: "被认可/被冷落/听众流失或增长/语音社区氛围变化"
+        indicators: "听众增长率、评论区情感分析、社群活跃度、付费连线排队长度"
+      financial:
+        label: "财务域（财星）"
+        events: "打赏下降/付费连线减少/会员退订/有声作品销量下滑"
+        indicators: "打赏趋势、付费连线转化率、会员续费率、有声作品销售排名"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "声音创作瓶颈/节目形式创新/声线健康状况/内容储备枯竭"
+        indicators: "节目类型多样性、声线变换频次、新节目策划频率、听众留存时长"
+      peer:
+        label: "同侪域（比劫）"
+        events: "同行比较/音频平台排名/同类型主播竞争/联动效果"
+        indicators: "音频平台分类排名、联动数据、听众重叠率、同赛道竞争动态"
+
+  历史政治人物:
+    domain_file: "domain_knowledge/历史政治人物.md"
+    status: "自动生成"
+    description: "历史政治人物的六维度因果分析映射——功过评价、权力动力学、历史遗产评估"
+    triggers_examples:
+      - "毛泽东"
+      - "华盛顿"
+      - "拿破仑"
+      - "曹操"
+      - "凯撒"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "被政敌攻击/被党内批评/被群众反对/被外部势力施压/被暗杀或政变威胁"
+        indicators: "政治斗争公开化、弹劾或罢免信号、安全威胁升级、被迫退位迹象"
+      social:
+        label: "社会域（印星）"
+        events: "被人民拥护/被孤立/群众支持度变化/党内地位波动/国际认可度变化"
+        indicators: "群众运动规模、党内选举结果、国际盟友声明、民意支持度趋势"
+      financial:
+        label: "财务域（财星）"
+        events: "政治资本积累或流失/经济资源掌控力变化/军事力量增减/组织控制力变化"
+        indicators: "人事任免权范围、财政调度能力、军队忠诚度、官僚系统执行效率"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "理论创新/战略判断成败/著作产出变化/决策质量波动/认知衰退信号"
+        indicators: "著作数量与质量、关键决策正确率、思想体系影响力、晚年认知变化"
+      peer:
+        label: "同侪域（比劫）"
+        events: "与同时代政治人物比较/历史地位排名变化/继承者或挑战者的动态"
+        indicators: "同期领袖对比、历史排名变化趋势、后人对同时代竞争者的评价差异"
+
+  小说创作:
+    domain_file: "domain_knowledge/小说创作.md"
+    status: "已有完整映射"
+    description: "小说/叙事文本的生成式创作辅助映射——一边写一边检查人物行为在因果层面的自洽性"
+    triggers_examples:
+      - "我想写一个小说"
+      - "帮我写一个故事"
+      - "创作剧情"
+      - "写小说"
+    five_domain_mapping:
+      autonomy:
+        label: "自主域（官杀）"
+        events: "角色被外力控制/约束/逼迫——被囚禁、被命令、被社会规则压迫、自由意志受限"
+        indicators: "角色做出违心选择的频率、角色对'不得不'类语言的使用密度、角色是否有反抗行为及后果"
+      social:
+        label: "社会域（印星）"
+        events: "角色被他人接受或拒绝——加入群体、被背叛、被认可、被孤立、建立同盟"
+        indicators: "角色与他人互动的情绪能量方向、群体对角色态度的变化斜率、角色在群体中的位置变化"
+      financial:
+        label: "财务域（财星）"
+        events: "资源得失——获得武器/金钱/情报/权力、失去依仗、交易、馈赠、抢夺"
+        indicators: "角色资源量的变化、资源获取方式是否符合已建立的角色能力、资源的叙事后果"
+      cognitive:
+        label: "认知域（食伤）"
+        events: "角色学习/创新/解决问题——破解谜题、学习技能、制定计划、洞见发现"
+        indicators: "认知挑战的难度与角色智识能力的匹配度、解谜过程的因果链条完整性、认知疲劳的叙事表现"
+      peer:
+        label: "同侪域（比劫）"
+        events: "角色与同级者的比较/竞争——排名、对决、嫉妒、超越、师徒传承中的比较"
+        indicators: "竞争对手出现的叙事功能（推动成长 / 纯粹障碍）、比较结果对角色自我认知的影响"
+
+# 自动生成的领域知识存放目录
+generated_domains_dir: "domain_knowledge"
+
+# 分析报告存放目录
+reports_dir: "analysis_reports"

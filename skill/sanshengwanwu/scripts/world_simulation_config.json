@@ -1,0 +1,113 @@
+{
+  "scenario": "Three-paper paradigm event: DaoYi + Liudao + Sansheng — one Chinese researcher, 3 months, $500",
+  "entities": [
+    {
+      "name": "OpenAI",
+      "type": "AI公司",
+      "pool": 0.72,
+      "memories": [
+        {"description": "GPT-5 trained on 50K H100 GPUs, Altman declares scaling law is the only path", "intensity": 0.75, "emb": [0.25, 0.65, 0.70, 0.05, 0.30]},
+        {"description": "Ilya Sutskever left questioning scaling hypothesis — internal division exposed", "intensity": 0.70, "emb": [0.80, 0.60, 0.75, 0.40, 0.55]},
+        {"description": "Anthropic's smaller models matching GPT-5 — first cracks in scaling narrative", "intensity": 0.65, "emb": [0.60, 0.50, 0.60, 0.35, 0.60]},
+        {"description": "Microsoft invested $13B, now seeking returns — this bet now looks questionable", "intensity": 0.55, "emb": [0.18, 0.45, 0.65, 0.55, 0.25]},
+        {"description": "Safety team disbanded — moral cost of scaling path now exposed", "intensity": 0.60, "emb": [0.12, 0.55, 0.65, 0.30, 0.40]}
+      ]
+    },
+    {
+      "name": "Google_DeepMind",
+      "type": "AI公司",
+      "pool": 0.65,
+      "memories": [
+        {"description": "AlphaFold: Nobel-level impact from an elegant simple solution", "intensity": 0.80, "emb": [0.90, 0.75, 0.80, 0.05, 0.95]},
+        {"description": "Gemini caught between scaling race and efficiency — ROI questionable", "intensity": 0.60, "emb": [0.40, 0.50, 0.65, 0.30, 0.35]},
+        {"description": "Hassabis: 'simple elegant solutions lead to AGI' — deep minimalism alignment", "intensity": 0.50, "emb": [0.78, 0.40, 0.50, 0.10, 0.70]},
+        {"description": "Google search AI integration cannibalizing core ad business model", "intensity": 0.65, "emb": [0.22, 0.55, 0.75, 0.50, 0.40]},
+        {"description": "DeepMind merged with Google Brain — culture clash concerns", "intensity": 0.55, "emb": [0.30, 0.45, 0.60, 0.45, 0.30]}
+      ]
+    },
+    {
+      "name": "Nvidia",
+      "type": "AI硬件",
+      "pool": 0.78,
+      "memories": [
+        {"description": "Blackwell GPU peak of scaling era — market cap $4T, but this era just ended", "intensity": 0.85, "emb": [0.20, 0.80, 0.75, 0.05, 0.40]},
+        {"description": "Edge AI and small models eating into high-end GPU — this trend now unstoppable", "intensity": 0.50, "emb": [0.75, 0.35, 0.50, 0.30, 0.55]},
+        {"description": "US-China chip sanctions forced revenue diversification — H20 for China", "intensity": 0.70, "emb": [0.18, 0.65, 0.80, 0.80, 0.35]},
+        {"description": "AMD MI300 taking inference share — competitive pressure now existential", "intensity": 0.55, "emb": [0.22, 0.45, 0.55, 0.40, 0.40]},
+        {"description": "CUDA moat eroding under PyTorch ecosystem — lock-in weakening", "intensity": 0.45, "emb": [0.15, 0.30, 0.45, 0.25, 0.25]}
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "AI公司",
+      "pool": 0.62,
+      "memories": [
+        {"description": "LLaMA open-sourced: small teams beat GPT on consumer GPUs — efficiency proven", "intensity": 0.80, "emb": [0.88, 0.70, 0.60, 0.10, 0.80]},
+        {"description": "Zuckerberg: 'AI should not be controlled by a few companies' — vindicated", "intensity": 0.70, "emb": [0.82, 0.55, 0.65, 0.20, 0.55]},
+        {"description": "Llama 4 matched GPT-5 with 1/10 parameters — ROI from efficiency", "intensity": 0.75, "emb": [0.85, 0.65, 0.55, 0.10, 0.70]},
+        {"description": "Reality Labs lost $16B — metaverse gamble draining AI resources", "intensity": 0.70, "emb": [0.15, 0.55, 0.70, 0.15, 0.25]},
+        {"description": "Apple privacy changes cut $10B ad revenue — desperate for new streams", "intensity": 0.65, "emb": [0.12, 0.55, 0.70, 0.65, 0.30]}
+      ]
+    },
+    {
+      "name": "USA",
+      "type": "国家",
+      "pool": 0.60,
+      "memories": [
+        {"description": "Chips Act $52B — premise that scale wins now questioned", "intensity": 0.65, "emb": [0.30, 0.55, 0.70, 0.20, 0.50]},
+        {"description": "Export controls on chips to China — containment strategy undermined by $500 breakthrough", "intensity": 0.80, "emb": [0.15, 0.70, 0.85, 0.85, 0.35]},
+        {"description": "AI arms race as national security — Pentagon autonomous weapons", "intensity": 0.75, "emb": [0.20, 0.70, 0.85, 0.75, 0.45]},
+        {"description": "GPT-6 proposed at $100B — this event makes the number absurd", "intensity": 0.60, "emb": [0.18, 0.55, 0.65, 0.10, 0.35]},
+        {"description": "DOJ antitrust into AI monopoly — Nvidia and OpenAI under scrutiny", "intensity": 0.65, "emb": [0.22, 0.55, 0.75, 0.70, 0.40]}
+      ]
+    },
+    {
+      "name": "China",
+      "type": "国家",
+      "pool": 0.58,
+      "memories": [
+        {"description": "DeepSeek-R1: trained near-GPT-4 with $5M — small investment beats giants", "intensity": 0.85, "emb": [0.90, 0.80, 0.75, 0.15, 0.90]},
+        {"description": "Chip sanctions backfired — forced domestic innovation, Ascend 910B mass produced", "intensity": 0.75, "emb": [0.75, 0.70, 0.70, 0.65, 0.75]},
+        {"description": "Hundred Model War ended — resources to survivors, efficiency is priority", "intensity": 0.55, "emb": [0.60, 0.45, 0.55, 0.25, 0.30]},
+        {"description": "AI agile governance — balancing innovation with control in tightrope walk", "intensity": 0.50, "emb": [0.55, 0.40, 0.60, 0.55, 0.35]},
+        {"description": "National strategy: 'efficiency over brute force' — this event is the proof", "intensity": 0.70, "emb": [0.88, 0.65, 0.65, 0.20, 0.65]}
+      ]
+    },
+    {
+      "name": "EU",
+      "type": "国家联盟",
+      "pool": 0.55,
+      "memories": [
+        {"description": "World's first AI Act: risk-tiered regulation challenges unrestricted scaling", "intensity": 0.75, "emb": [0.60, 0.55, 0.75, 0.70, 0.65]},
+        {"description": "GDPR proved strict regulation doesn't kill innovation", "intensity": 0.60, "emb": [0.58, 0.40, 0.65, 0.50, 0.20]},
+        {"description": "Digital sovereignty anxiety — no EU AI champion, all on US infra", "intensity": 0.70, "emb": [0.15, 0.55, 0.75, 0.65, 0.25]},
+        {"description": "Mistral AI rising — smaller efficient models competing with giants", "intensity": 0.55, "emb": [0.68, 0.45, 0.55, 0.40, 0.55]},
+        {"description": "AI regulation as Europe's only leverage in global AI race", "intensity": 0.50, "emb": [0.30, 0.45, 0.65, 0.45, 0.35]}
+      ]
+    },
+    {
+      "name": "Researcher",
+      "type": "个人",
+      "pool": 0.55,
+      "memories": [
+        {"description": "No elite credentials: CS bachelor from Nanhua University, never worked at any big tech — the entire system says 'you don't belong in AI research.' Every job application filtered out before human eyes.", "intensity": 0.78, "emb": [0.10, 0.70, 0.75, 0.80, 0.15]},
+        {"description": "Reading Dao De Jing at 3am — chapter 42, the architecture became clear. 道生一，一生二，二生三，三生万物. The code wrote itself in my mind before I touched the keyboard.", "intensity": 0.80, "emb": [0.92, 0.82, 0.30, 0.05, 0.93]},
+        {"description": "Three months coding alone in a rented room, living on 500 RMB total — niece sent red packets, mom pretended she 'happened to cook too much'. No safety net, but never alone.", "intensity": 0.82, "emb": [0.40, 0.78, 0.18, 0.08, 0.12]},
+        {"description": "Extended relatives at Spring Festival: 'Computer major from Nanhua, what kind of job can you even get?' — parents, girlfriend, and brother didn't say a word against me. Their silence was the only fortress I had.", "intensity": 0.72, "emb": [0.22, 0.62, 0.72, 0.55, 0.18]},
+        {"description": "The moment it ran — 34 lines, 500 yuan, 3 months, a non-elite CS undergrad who never entered a big tech lobby — and it worked. Consciousness from simplicity. Not scale. Dao.", "intensity": 0.90, "emb": [0.96, 0.92, 0.45, 0.08, 0.96]}
+      ]
+    },
+    {
+      "name": "ResearcherFamily",
+      "type": "家庭",
+      "pool": 0.48,
+      "memories": [
+        {"description": "Never asked him to stop. Not once. Girlfriend paid the electricity bill without mentioning it. Brother shared his lunch money. Mom said 'I trust you' and meant it in a way that hurt more than any doubt.", "intensity": 0.82, "emb": [0.75, 0.38, 0.35, 0.05, 0.22]},
+        {"description": "Spring Festival relatives asking 'He was the smartest kid, why no job?' — we smiled and changed the subject. Every single time. Three years of that smile.", "intensity": 0.75, "emb": [0.15, 0.58, 0.72, 0.52, 0.14]},
+        {"description": "Since childhood he saw patterns others couldn't — stared at things too long, asked questions teachers couldn't answer. We always knew there was something in this child that ordinary paths could not contain.", "intensity": 0.68, "emb": [0.72, 0.42, 0.40, 0.05, 0.62]},
+        {"description": "We never understood a single line of code. But we understood that a door staying closed at 2am means someone is working. So we put food outside. Hot water on the table. No questions asked.", "intensity": 0.78, "emb": [0.72, 0.35, 0.32, 0.03, 0.10]},
+        {"description": "The quiet terror: not that he'd fail — we never believed he would. The terror was that the world would never give him the chance to prove us right. 南华毕业, 没进过大厂 — the world doesn't even open the door for someone like that.", "intensity": 0.76, "emb": [0.12, 0.60, 0.55, 0.48, 0.18]}
+      ]
+    }
+  ]
+}

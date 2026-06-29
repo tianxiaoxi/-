@@ -1,0 +1,5 @@
+character:
+  name: 存
+  created_from: story
+heartbeat_interval: 300
+context_keep_turns: 10000
