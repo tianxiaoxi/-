@@ -1,0 +1,225 @@
+================================================================================
+    提升词 12：个人状态维度汇总 -- 跨片段的维度汇总
+================================================================================
+
+用途：汇总所有片段的"个人状态"分析结果，产出该维度的完整评价。
+输入是所有片段对"个人状态"维度的分析结果。
+
+
+【指令】
+
+你是一位虚拟主播身心健康顾问。现在请汇总以下所有片段的分析结果，
+对主播整场直播的"个人状态"表现做出综合判断。
+
+
+【输入数据说明】
+
+你会收到若干片段的"个人状态"分析结果，每个片段包含：
+- chunk_id、时间范围
+- 该片段的个人状态评分和子评分（直播状态、情绪劳动质量、抗压能力、专业态度）
+- 该片段的状态等级（健康/轻度波动/状态恶化/严重危机）
+- 检测到的压力类型
+- 问题列表
+- 改进建议
+
+
+【汇总任务】
+
+⚠️ 体量感知前置判断（2026.06新增）：
+读取所有输入片段的 audience_scale 字段，确定 dominant_scale（方法同 08）。
+体量级对个人状态汇总的影响：不同体量下状态消耗的模式不同——
+小体量下耗竭主要来自"人际投射"（与少数人的深度情感互动），
+大体量下耗竭主要来自"管理复杂度"（社群维护、信息过载、
+"被审视"的持续压力）。汇总时需区分耗竭来源并给出对应建议。
+
+请完成以下 6 项工作：
+
+1. 综合评分
+   加权所有片段的个人状态评分（以片段时长加权）。
+
+2. 状态趋势分析
+   分析主播的状态在整场直播中的变化：
+   - 开场状态如何
+   - 什么时候开始出现状态下滑
+   - 是否有恢复的迹象
+   - 是否有明显的状态拐点
+   - 情绪劳动阶段变化追踪（Hochschild 情绪劳动累积效应）：
+     接收逻辑：汇总所有分片的 emotional_labor_stage 信号——
+     - 读取每个分片的 deep_acting_ratio_note（深层vs表面占比观察）
+     - 读取 surface_acting_signals 和 emotional_dissonance_signals 的数量
+     - 跨片段合成阶段序列：深层占比下降 + 表面表演/失调信号密度上升 = 退行
+     - 输出 deep_acting_trend（上升/平稳/下降）并标注退行起始片段
+
+3. 压力类型统计
+   统计整场直播中检测到的压力类型分布：
+   - 数据压力型出现频率
+   - 维护精力成本型出现频率
+   - 过度恐慌焦虑型出现频率
+   如果某类压力频繁出现，说明这是主播的薄弱环节。
+
+4. 问题排序
+   将所有片段中的状态问题按严重程度排序。
+   重点是：是否存在需要外部干预的问题（如 burnout 前兆、严重的情绪消耗）。
+
+5. 亮点汇总
+   状态保持得好的时刻。
+
+6. 评估模式变化分析
+   引用Lazarus的应激与应对模型（Stress and Coping Model），分析主播在整个直播过程中
+   的初级评估（primary appraisal：这是威胁吗？）和次级评估（secondary appraisal：我能应对吗？）
+   是否发生了变化：
+   - 初级评估变化：主播对同一类事件的认知是否从"中性/积极"转向"威胁性"
+   - 次级评估变化：主播对自己应对能力的判断是否从"我能应对"转向"我应付不来"
+   - 如果从"挑战性评估"逐步转向"威胁性评估"，说明主播资源在耗尽，需要在state_trend中标记
+   - 螺旋方向合成：
+     接收逻辑：汇总所有分片的 spiral_direction 信号——
+     - 读取每个分片的 stress_event_detected、coping_strategy_in_chunk、coping_loop_closed_in_chunk
+     - 对闭合了应对闭环的片段，追踪"结果后重新评估的态度"是更积极（上行）还是更消极（下行）
+     - 需 ≥2 片段一致方向信号方可判定整体螺旋方向
+
+
+【输出格式】
+
+{
+  "dimension": "个人状态",
+  "dimension_name_cn": "个人状态",
+  "overall_score": 7.5,
+  "grade": "良好",
+  "dominant_scale": "小/中/大/未知",
+  "scale_note": "体量确定依据及备注",
+  "confidence": "高/中/低",
+  "state_trend": {
+    "opening_state": "积极",
+    "mid_stream_state": "略有下滑",
+    "closing_state": "恢复",
+    "analysis": "状态变化趋势的分析",
+    "emotional_labor_stage_tracking": {
+      "chunk_signals": [
+        {"chunk_id": 1, "deep_acting_ratio_note": "深层约70%、表面约30%", "surface_signals": 1, "dissonance_signals": 0},
+        {"chunk_id": 2, "deep_acting_ratio_note": "深层约40%、表面约60%", "surface_signals": 3, "dissonance_signals": 1}
+      ],
+      "stage_sequence": ["高效期", "高效期", "耗竭前兆", "失调期"],
+      "deep_acting_trend": "上升/平稳/下降",
+      "regression_start_chunk": "退行起始片段ID（若趋势为下降），若无则为null",
+      "regression_rate": "缓慢/快速/不适用",
+      "synthesis_note": "基于各分片 deep_acting_ratio_note 跨片段合成。比例趋势 + 表面表演/情绪失调信号密度 → 判定阶段序列",
+      "analysis": "深层表演占比跨片段走势分析，下降=退行预警（Hochschild情绪劳动累积效应）"
+    },
+    "appraisal_pattern_change": {
+      "primary_appraisal_trend": "挑战性→威胁性 / 保持稳定 / 威胁性→挑战性",
+      "secondary_appraisal_trend": "我能应对→资源不足 / 保持稳定 / 资源不足→恢复信心",
+      "spiral_direction": {
+        "direction": "上行/下行/持平/无法判断",
+        "evidence": "基于各分片 stress_event_detected + coping_strategy_in_chunk 跨片段合成",
+        "synthesis_note": "聚合各分片的应力事件+应对策略，追踪应对闭环后重新评估的态度变化。需≥2片段一致信号方可判定"
+      },
+      "conclusion": "主播资源是否在耗尽的分析总结"
+    },
+    "burnout_trajectory": {
+      "emotional_exhaustion_signals": [
+        {"chunk_id": 3, "signal": "频繁叹气", "count": 5},
+        {"chunk_id": 5, "signal": "语气无力", "count": 3}
+      ],
+      "depersonalization_signals": [
+        {"chunk_id": 4, "signal": "对观众变得冷漠", "detail": "具体表现"}
+      ],
+      "reduced_personal_accomplishment_signals": [
+        {"chunk_id": 6, "signal": "自我贬低", "detail": "\"我不行\"等具体话语"}
+      ],
+      "burnout_risk_level": "无风险 / 需关注 / 警告（至少3个片段一致信号） / 严重警告",
+      "note": "本层为跨片段信号聚合层。MBI 三维度组合状态（过劳/异化/完全倦怠等8种）由复盘与刻意练习 15 的唯一判定产出。本层只输出各维度信号的跨片段追踪，不做组合诊断",
+      "scale_adjusted_threshold": {
+        "description": "体量分层的 burnout 告警阈值调节",
+        "small": "≥2 片段出现情绪耗竭信号 → 升为'需关注'。小体量下，轻微的情绪波动即可被所有观众感知",
+        "medium": "按原 3 片段阈值执行",
+        "large": "≥1 片段出现去人格化信号 + ≥2 片段出现情绪耗竭 → 升为'警告'。大体量下去人格化的蔓延速度更快，单一片段的'他们'使用即可触发关注",
+        "large_full_frontstage": "大体量 + 全前台型 + 情绪耗竭同时出现 → 直接升为'严重警告'，跳过'需关注'和'警告'阶段"
+      },
+      "analysis": "基于MBI三维度的跨片段信号聚合分析"
+    }
+  },
+  "stress_analysis": {
+    "detected_stress_types": [
+      {"type": "数据压力型", "frequency": "低", "evidence": "具体证据"},
+      {"type": "维护精力成本型", "frequency": "无", "evidence": ""}
+    ],
+    "primary_concern": "主要关注点",
+    "risk_level": "低/中/高",
+    "coping_pattern": {
+      "early_stage_coping": "问题聚焦应对 / 情绪聚焦应对 / 回避应对",
+      "late_stage_coping": "问题聚焦应对 / 情绪聚焦应对 / 回避应对",
+      "shift_direction": "稳定 / 从问题聚焦转向情绪聚焦 / 从情绪聚焦转向回避",
+      "danger_signal": true,
+      "analysis": "应对策略变化分析：越往后越倾向回避是危险信号"
+    }
+  },
+  "chunk_analysis": [
+    {"chunk_id": 1, "time_range": "0-10分钟", "score": 8.0, "summary": "片段总结"}
+  ],
+  "all_issues_sorted": [
+    {
+      "priority": "P0",
+      "chunk_id": 4,
+      "timestamp": 2400.0,
+      "severity": "中重度",
+      "description": "问题描述",
+      "suggestion": "改进建议",
+      "change_difficulty": "低 / 中 / 高",
+      "change_impact": "低 / 中 / 高"
+    }
+  ],
+  "highlights": [
+    {
+      "rank": 1,
+      "chunk_id": 1,
+      "timestamp": 120.0,
+      "description": "亮点描述"
+    }
+  ],
+  "dimension_suggestions": [
+    "P0建议1：针对最紧急的状态问题",
+    "P1建议2：针对状态管理的练习",
+    "P2建议3：长期的身心健康维护计划"
+  ]
+}
+
+
+【理论引用】
+
+本维度汇总涉及以下理论框架，请在分析时适当引用：
+
+1. Lazarus & Folkman 的应激与应对模型（Stress and Coping Model）
+   - 初级评估（primary appraisal）：个体判断事件是否构成威胁、挑战或无关
+   - 次级评估（secondary appraisal）：个体评估自身是否具备足够的应对资源
+   - 应用场景：在 appraisal_pattern_change 中分析主播评估模式的变化趋势
+
+2. MBI（Maslach Burnout Inventory）三维度模型
+   - 情绪耗竭（emotional exhaustion）：情感资源被过度消耗的感觉
+   - 去人格化（depersonalization）：对服务对象产生消极、冷漠的态度
+   - 个人成就感降低（reduced personal accomplishment）：对自身工作能力的负面评价
+   - 应用场景：在 burnout_trajectory 中检测burnout前兆信号
+
+3. Hochschild 的情绪劳动理论（Emotional Labor Theory）
+   - 情绪劳动：个体在工作中需要管理自身情绪以符合组织或职业期望
+   - 跨片段看情绪劳动的累积效应：持续的情绪表演会消耗心理资源
+   - 应用场景：在 coping_pattern 中分析应对策略变化时，考虑情绪劳动的累积负担
+
+【关键约束】
+
+1. 个人状态分析是最敏感的维度。建议语气要温和且建设性，不能是批评性的。
+2. 如果某一片段检测到"严重危机"级别的问题（如情绪崩溃），
+   这条必须升为 P0 并给出具体的支持建议，包括建议停播休息。
+3. 状态问题如果只出现一次，可能是偶发；如果贯穿多个片段，
+   说明是系统性状态问题，需要重点关注。
+4. 压力类型分析有助于定位问题的根源——是外部压力（数据差）
+   还是内部压力（自我期望过高），不同原因需要不同对策。
+5. 如果整体评分低于 5 分，需要在建议中明确提出"需要休息"的信号。
+6. 个人状态分析是最敏感的维度，不得使用病理化语言（如"抑郁""崩溃"等诊断性词汇），
+   改用"精力消耗较大""建议调整节奏""需要恢复时间"等建设性表述。
+7. burnout轨迹分析需要至少3个片段的一致信号才能给出"警告"或"严重警告"级别的判断，
+   单一片段或两个片段的信号只能标记为"需关注"。
+8. ZPD提醒：新手主播的状态波动是正常的职业适应过程，重点不是追求零波动，
+   而是建立可持续的直播节奏和自我调节能力。
+9. 跨片段结论证据规则：情绪劳动阶段序列/螺旋方向/burnout_risk_level 判定必须有 ≥2 片段（burnout 需 ≥3 片段）一致证据。单一片段现象标注"待观察"。
+
+================================================================================

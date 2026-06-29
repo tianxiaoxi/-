@@ -1,0 +1,3839 @@
+{
+  "full_sample": {
+    "total_reports": 91,
+    "valid_reports": 84,
+    "dimensions": {
+      "人设定位": {
+        "mean": 8.07,
+        "median": 8.0,
+        "std": 1.02,
+        "min": 5,
+        "max": 9,
+        "count": 84
+      },
+      "互动效果": {
+        "mean": 7.18,
+        "median": 7.0,
+        "std": 1.38,
+        "min": 3,
+        "max": 9,
+        "count": 84
+      },
+      "粉丝关系": {
+        "mean": 7.56,
+        "median": 8.0,
+        "std": 1.64,
+        "min": 3,
+        "max": 10,
+        "count": 84
+      },
+      "流水营收": {
+        "mean": 6.18,
+        "median": 6.5,
+        "std": 1.93,
+        "min": 2,
+        "max": 10,
+        "count": 84
+      },
+      "个人状态": {
+        "mean": 5.09,
+        "median": 5,
+        "std": 1.64,
+        "min": 2,
+        "max": 8,
+        "count": 81
+      },
+      "内容质量": {
+        "mean": 7.57,
+        "median": 8.0,
+        "std": 1.27,
+        "min": 4,
+        "max": 9,
+        "count": 84
+      }
+    }
+  },
+  "by_region": {
+    "东南亚及其他": {
+      "count": 5,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.4,
+          "median": 8,
+          "std": 1.2,
+          "min": 5,
+          "max": 8,
+          "count": 5
+        },
+        "互动效果": {
+          "mean": 6.6,
+          "median": 7,
+          "std": 1.62,
+          "min": 4,
+          "max": 9,
+          "count": 5
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 8,
+          "std": 2.0,
+          "min": 3,
+          "max": 8,
+          "count": 5
+        },
+        "流水营收": {
+          "mean": 5.8,
+          "median": 7,
+          "std": 1.94,
+          "min": 2,
+          "max": 7,
+          "count": 5
+        },
+        "个人状态": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 1.41,
+          "min": 4,
+          "max": 8,
+          "count": 5
+        },
+        "内容质量": {
+          "mean": 7.0,
+          "median": 8,
+          "std": 1.55,
+          "min": 4,
+          "max": 8,
+          "count": 5
+        }
+      }
+    },
+    "中国大陆": {
+      "count": 10,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.2,
+          "median": 8.5,
+          "std": 0.87,
+          "min": 7,
+          "max": 9,
+          "count": 10
+        },
+        "互动效果": {
+          "mean": 6.9,
+          "median": 7.5,
+          "std": 1.51,
+          "min": 3,
+          "max": 8,
+          "count": 10
+        },
+        "粉丝关系": {
+          "mean": 7.5,
+          "median": 7.5,
+          "std": 1.12,
+          "min": 5,
+          "max": 9,
+          "count": 10
+        },
+        "流水营收": {
+          "mean": 5.8,
+          "median": 5.5,
+          "std": 1.72,
+          "min": 2,
+          "max": 8,
+          "count": 10
+        },
+        "个人状态": {
+          "mean": 4.89,
+          "median": 5,
+          "std": 1.52,
+          "min": 2,
+          "max": 7,
+          "count": 9
+        },
+        "内容质量": {
+          "mean": 7.5,
+          "median": 8.0,
+          "std": 0.92,
+          "min": 6,
+          "max": 9,
+          "count": 10
+        }
+      }
+    },
+    "日本": {
+      "count": 36,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.03,
+          "median": 8.5,
+          "std": 1.17,
+          "min": 5,
+          "max": 9,
+          "count": 36
+        },
+        "互动效果": {
+          "mean": 7.06,
+          "median": 7.0,
+          "std": 1.45,
+          "min": 4,
+          "max": 9,
+          "count": 36
+        },
+        "粉丝关系": {
+          "mean": 7.33,
+          "median": 8.0,
+          "std": 1.9,
+          "min": 3,
+          "max": 10,
+          "count": 36
+        },
+        "流水营收": {
+          "mean": 5.72,
+          "median": 6.0,
+          "std": 2.16,
+          "min": 2,
+          "max": 9,
+          "count": 36
+        },
+        "个人状态": {
+          "mean": 4.97,
+          "median": 5,
+          "std": 1.78,
+          "min": 2,
+          "max": 8,
+          "count": 35
+        },
+        "内容质量": {
+          "mean": 7.31,
+          "median": 8.0,
+          "std": 1.41,
+          "min": 4,
+          "max": 9,
+          "count": 36
+        }
+      }
+    },
+    "未分类": {
+      "count": 11,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.55,
+          "median": 9,
+          "std": 0.66,
+          "min": 7,
+          "max": 9,
+          "count": 11
+        },
+        "互动效果": {
+          "mean": 8.09,
+          "median": 8,
+          "std": 0.79,
+          "min": 7,
+          "max": 9,
+          "count": 11
+        },
+        "粉丝关系": {
+          "mean": 8.55,
+          "median": 8,
+          "std": 0.66,
+          "min": 8,
+          "max": 10,
+          "count": 11
+        },
+        "流水营收": {
+          "mean": 7.45,
+          "median": 7,
+          "std": 1.16,
+          "min": 6,
+          "max": 10,
+          "count": 11
+        },
+        "个人状态": {
+          "mean": 6.27,
+          "median": 6,
+          "std": 0.75,
+          "min": 5,
+          "max": 7,
+          "count": 11
+        },
+        "内容质量": {
+          "mean": 8.36,
+          "median": 8,
+          "std": 0.64,
+          "min": 7,
+          "max": 9,
+          "count": 11
+        }
+      }
+    },
+    "特殊案例": {
+      "count": 1,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 1
+        },
+        "互动效果": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 1
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 1
+        },
+        "流水营收": {
+          "mean": 9.0,
+          "median": 9,
+          "std": 0.0,
+          "min": 9,
+          "max": 9,
+          "count": 1
+        },
+        "个人状态": {
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "count": 0
+        },
+        "内容质量": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 1
+        }
+      }
+    },
+    "英语圈": {
+      "count": 18,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.06,
+          "median": 8.0,
+          "std": 0.85,
+          "min": 6,
+          "max": 9,
+          "count": 18
+        },
+        "互动效果": {
+          "mean": 7.06,
+          "median": 7.0,
+          "std": 0.97,
+          "min": 5,
+          "max": 9,
+          "count": 18
+        },
+        "粉丝关系": {
+          "mean": 7.67,
+          "median": 8.0,
+          "std": 1.53,
+          "min": 4,
+          "max": 10,
+          "count": 18
+        },
+        "流水营收": {
+          "mean": 6.61,
+          "median": 7.0,
+          "std": 1.46,
+          "min": 4,
+          "max": 9,
+          "count": 18
+        },
+        "个人状态": {
+          "mean": 4.33,
+          "median": 4.0,
+          "std": 1.45,
+          "min": 2,
+          "max": 7,
+          "count": 18
+        },
+        "内容质量": {
+          "mean": 7.83,
+          "median": 8.0,
+          "std": 1.17,
+          "min": 4,
+          "max": 9,
+          "count": 18
+        }
+      }
+    },
+    "韩国": {
+      "count": 3,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 3
+        },
+        "互动效果": {
+          "mean": 7.67,
+          "median": 9,
+          "std": 1.89,
+          "min": 5,
+          "max": 9,
+          "count": 3
+        },
+        "粉丝关系": {
+          "mean": 7.33,
+          "median": 8,
+          "std": 0.94,
+          "min": 6,
+          "max": 8,
+          "count": 3
+        },
+        "流水营收": {
+          "mean": 5.33,
+          "median": 6,
+          "std": 0.94,
+          "min": 4,
+          "max": 6,
+          "count": 3
+        },
+        "个人状态": {
+          "mean": 5.67,
+          "median": 6,
+          "std": 0.47,
+          "min": 5,
+          "max": 6,
+          "count": 3
+        },
+        "内容质量": {
+          "mean": 7.33,
+          "median": 7,
+          "std": 0.47,
+          "min": 7,
+          "max": 8,
+          "count": 3
+        }
+      }
+    }
+  },
+  "by_type": {
+    "杂谈势": {
+      "count": 39,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.85,
+          "median": 8,
+          "std": 1.1,
+          "min": 5,
+          "max": 9,
+          "count": 39
+        },
+        "互动效果": {
+          "mean": 7.33,
+          "median": 8,
+          "std": 1.46,
+          "min": 4,
+          "max": 9,
+          "count": 39
+        },
+        "粉丝关系": {
+          "mean": 7.38,
+          "median": 8,
+          "std": 1.7,
+          "min": 3,
+          "max": 10,
+          "count": 39
+        },
+        "流水营收": {
+          "mean": 6.15,
+          "median": 7,
+          "std": 1.93,
+          "min": 2,
+          "max": 9,
+          "count": 39
+        },
+        "个人状态": {
+          "mean": 4.65,
+          "median": 5,
+          "std": 1.46,
+          "min": 2,
+          "max": 7,
+          "count": 37
+        },
+        "内容质量": {
+          "mean": 7.28,
+          "median": 8,
+          "std": 1.4,
+          "min": 4,
+          "max": 9,
+          "count": 39
+        }
+      }
+    },
+    "歌势": {
+      "count": 38,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.32,
+          "median": 9.0,
+          "std": 0.8,
+          "min": 7,
+          "max": 9,
+          "count": 38
+        },
+        "互动效果": {
+          "mean": 7.39,
+          "median": 7.0,
+          "std": 0.96,
+          "min": 6,
+          "max": 9,
+          "count": 38
+        },
+        "粉丝关系": {
+          "mean": 8.11,
+          "median": 8.0,
+          "std": 1.21,
+          "min": 5,
+          "max": 10,
+          "count": 38
+        },
+        "流水营收": {
+          "mean": 6.68,
+          "median": 7.0,
+          "std": 1.57,
+          "min": 2,
+          "max": 10,
+          "count": 38
+        },
+        "个人状态": {
+          "mean": 5.37,
+          "median": 6.0,
+          "std": 1.74,
+          "min": 2,
+          "max": 8,
+          "count": 38
+        },
+        "内容质量": {
+          "mean": 7.89,
+          "median": 8.0,
+          "std": 0.94,
+          "min": 5,
+          "max": 9,
+          "count": 38
+        }
+      }
+    },
+    "游戏势": {
+      "count": 1,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 1
+        },
+        "互动效果": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 0.0,
+          "min": 6,
+          "max": 6,
+          "count": 1
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 1
+        },
+        "流水营收": {
+          "mean": 5.0,
+          "median": 5,
+          "std": 0.0,
+          "min": 5,
+          "max": 5,
+          "count": 1
+        },
+        "个人状态": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 0.0,
+          "min": 6,
+          "max": 6,
+          "count": 1
+        },
+        "内容质量": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 1
+        }
+      }
+    },
+    "综合势": {
+      "count": 6,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.0,
+          "median": 8.5,
+          "std": 1.41,
+          "min": 5,
+          "max": 9,
+          "count": 6
+        },
+        "互动效果": {
+          "mean": 5.0,
+          "median": 5.0,
+          "std": 1.29,
+          "min": 3,
+          "max": 7,
+          "count": 6
+        },
+        "粉丝关系": {
+          "mean": 5.33,
+          "median": 5.5,
+          "std": 1.6,
+          "min": 3,
+          "max": 8,
+          "count": 6
+        },
+        "流水营收": {
+          "mean": 3.33,
+          "median": 3.0,
+          "std": 1.49,
+          "min": 2,
+          "max": 6,
+          "count": 6
+        },
+        "个人状态": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 1.41,
+          "min": 4,
+          "max": 8,
+          "count": 5
+        },
+        "内容质量": {
+          "mean": 7.33,
+          "median": 7.5,
+          "std": 1.7,
+          "min": 4,
+          "max": 9,
+          "count": 6
+        }
+      }
+    }
+  },
+  "by_scale": {
+    "中小层": {
+      "count": 14,
+      "dimensions": {
+        "人设定位": {
+          "mean": 6.93,
+          "median": 7.0,
+          "std": 1.1,
+          "min": 5,
+          "max": 9,
+          "count": 14
+        },
+        "互动效果": {
+          "mean": 5.79,
+          "median": 6.0,
+          "std": 1.32,
+          "min": 4,
+          "max": 9,
+          "count": 14
+        },
+        "粉丝关系": {
+          "mean": 5.79,
+          "median": 6.5,
+          "std": 1.86,
+          "min": 3,
+          "max": 8,
+          "count": 14
+        },
+        "流水营收": {
+          "mean": 4.07,
+          "median": 4.5,
+          "std": 1.44,
+          "min": 2,
+          "max": 6,
+          "count": 14
+        },
+        "个人状态": {
+          "mean": 4.54,
+          "median": 5,
+          "std": 1.22,
+          "min": 3,
+          "max": 6,
+          "count": 13
+        },
+        "内容质量": {
+          "mean": 5.86,
+          "median": 6.0,
+          "std": 1.25,
+          "min": 4,
+          "max": 8,
+          "count": 14
+        }
+      }
+    },
+    "头部": {
+      "count": 38,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.47,
+          "median": 9.0,
+          "std": 0.68,
+          "min": 7,
+          "max": 9,
+          "count": 38
+        },
+        "互动效果": {
+          "mean": 7.66,
+          "median": 8.0,
+          "std": 1.18,
+          "min": 3,
+          "max": 9,
+          "count": 38
+        },
+        "粉丝关系": {
+          "mean": 8.18,
+          "median": 8.0,
+          "std": 1.1,
+          "min": 5,
+          "max": 10,
+          "count": 38
+        },
+        "流水营收": {
+          "mean": 7.18,
+          "median": 7.0,
+          "std": 1.52,
+          "min": 2,
+          "max": 10,
+          "count": 38
+        },
+        "个人状态": {
+          "mean": 5.36,
+          "median": 6.0,
+          "std": 1.62,
+          "min": 2,
+          "max": 8,
+          "count": 36
+        },
+        "内容质量": {
+          "mean": 8.11,
+          "median": 8.0,
+          "std": 0.85,
+          "min": 5,
+          "max": 9,
+          "count": 38
+        }
+      }
+    },
+    "底层/新人": {
+      "count": 1,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.0,
+          "min": 8,
+          "max": 8,
+          "count": 1
+        },
+        "互动效果": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 0.0,
+          "min": 6,
+          "max": 6,
+          "count": 1
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 1
+        },
+        "流水营收": {
+          "mean": 4.0,
+          "median": 4,
+          "std": 0.0,
+          "min": 4,
+          "max": 4,
+          "count": 1
+        },
+        "个人状态": {
+          "mean": 3.0,
+          "median": 3,
+          "std": 0.0,
+          "min": 3,
+          "max": 3,
+          "count": 1
+        },
+        "内容质量": {
+          "mean": 9.0,
+          "median": 9,
+          "std": 0.0,
+          "min": 9,
+          "max": 9,
+          "count": 1
+        }
+      }
+    },
+    "未分类": {
+      "count": 4,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.75,
+          "median": 7.5,
+          "std": 0.83,
+          "min": 7,
+          "max": 9,
+          "count": 4
+        },
+        "互动效果": {
+          "mean": 6.75,
+          "median": 6.0,
+          "std": 1.3,
+          "min": 6,
+          "max": 9,
+          "count": 4
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 7.5,
+          "std": 2.12,
+          "min": 4,
+          "max": 9,
+          "count": 4
+        },
+        "流水营收": {
+          "mean": 4.5,
+          "median": 4.0,
+          "std": 2.29,
+          "min": 2,
+          "max": 8,
+          "count": 4
+        },
+        "个人状态": {
+          "mean": 5.25,
+          "median": 5.5,
+          "std": 1.48,
+          "min": 3,
+          "max": 7,
+          "count": 4
+        },
+        "内容质量": {
+          "mean": 7.25,
+          "median": 7.0,
+          "std": 0.43,
+          "min": 7,
+          "max": 8,
+          "count": 4
+        }
+      }
+    },
+    "腰部": {
+      "count": 21,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.95,
+          "median": 8,
+          "std": 1.0,
+          "min": 5,
+          "max": 9,
+          "count": 21
+        },
+        "互动效果": {
+          "mean": 7.24,
+          "median": 8,
+          "std": 1.27,
+          "min": 4,
+          "max": 9,
+          "count": 21
+        },
+        "粉丝关系": {
+          "mean": 7.52,
+          "median": 8,
+          "std": 1.5,
+          "min": 3,
+          "max": 9,
+          "count": 21
+        },
+        "流水营收": {
+          "mean": 6.0,
+          "median": 6,
+          "std": 1.38,
+          "min": 2,
+          "max": 8,
+          "count": 21
+        },
+        "个人状态": {
+          "mean": 5.1,
+          "median": 6,
+          "std": 1.82,
+          "min": 2,
+          "max": 8,
+          "count": 21
+        },
+        "内容质量": {
+          "mean": 7.62,
+          "median": 8,
+          "std": 1.13,
+          "min": 4,
+          "max": 9,
+          "count": 21
+        }
+      }
+    },
+    "顶级": {
+      "count": 6,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.83,
+          "median": 9.0,
+          "std": 0.37,
+          "min": 8,
+          "max": 9,
+          "count": 6
+        },
+        "互动效果": {
+          "mean": 7.67,
+          "median": 7.5,
+          "std": 0.75,
+          "min": 7,
+          "max": 9,
+          "count": 6
+        },
+        "粉丝关系": {
+          "mean": 8.33,
+          "median": 8.5,
+          "std": 0.75,
+          "min": 7,
+          "max": 9,
+          "count": 6
+        },
+        "流水营收": {
+          "mean": 6.83,
+          "median": 7.0,
+          "std": 1.57,
+          "min": 5,
+          "max": 9,
+          "count": 6
+        },
+        "个人状态": {
+          "mean": 4.83,
+          "median": 5.0,
+          "std": 1.57,
+          "min": 2,
+          "max": 7,
+          "count": 6
+        },
+        "内容质量": {
+          "mean": 8.0,
+          "median": 8.0,
+          "std": 0.58,
+          "min": 7,
+          "max": 9,
+          "count": 6
+        }
+      }
+    }
+  },
+  "by_state": {
+    "活跃": {
+      "count": 69,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.14,
+          "median": 8,
+          "std": 1.03,
+          "min": 5,
+          "max": 9,
+          "count": 69
+        },
+        "互动效果": {
+          "mean": 7.2,
+          "median": 8,
+          "std": 1.46,
+          "min": 3,
+          "max": 9,
+          "count": 69
+        },
+        "粉丝关系": {
+          "mean": 7.49,
+          "median": 8,
+          "std": 1.73,
+          "min": 3,
+          "max": 10,
+          "count": 69
+        },
+        "流水营收": {
+          "mean": 6.22,
+          "median": 7,
+          "std": 1.98,
+          "min": 2,
+          "max": 10,
+          "count": 69
+        },
+        "个人状态": {
+          "mean": 5.52,
+          "median": 6.0,
+          "std": 1.42,
+          "min": 2,
+          "max": 8,
+          "count": 66
+        },
+        "内容质量": {
+          "mean": 7.7,
+          "median": 8,
+          "std": 1.29,
+          "min": 4,
+          "max": 9,
+          "count": 69
+        }
+      }
+    },
+    "瓶颈": {
+      "count": 2,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.5,
+          "median": 7.5,
+          "std": 0.5,
+          "min": 7,
+          "max": 8,
+          "count": 2
+        },
+        "互动效果": {
+          "mean": 7.0,
+          "median": 7.0,
+          "std": 1.0,
+          "min": 6,
+          "max": 8,
+          "count": 2
+        },
+        "粉丝关系": {
+          "mean": 7.0,
+          "median": 7.0,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 2
+        },
+        "流水营收": {
+          "mean": 5.0,
+          "median": 5.0,
+          "std": 0.0,
+          "min": 5,
+          "max": 5,
+          "count": 2
+        },
+        "个人状态": {
+          "mean": 3.0,
+          "median": 3.0,
+          "std": 0.0,
+          "min": 3,
+          "max": 3,
+          "count": 2
+        },
+        "内容质量": {
+          "mean": 7.0,
+          "median": 7.0,
+          "std": 0.0,
+          "min": 7,
+          "max": 7,
+          "count": 2
+        }
+      }
+    },
+    "退役": {
+      "count": 13,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.77,
+          "median": 8,
+          "std": 0.97,
+          "min": 6,
+          "max": 9,
+          "count": 13
+        },
+        "互动效果": {
+          "mean": 7.08,
+          "median": 7,
+          "std": 0.92,
+          "min": 6,
+          "max": 9,
+          "count": 13
+        },
+        "粉丝关系": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 1.11,
+          "min": 6,
+          "max": 9,
+          "count": 13
+        },
+        "流水营收": {
+          "mean": 6.15,
+          "median": 6,
+          "std": 1.75,
+          "min": 3,
+          "max": 9,
+          "count": 13
+        },
+        "个人状态": {
+          "mean": 3.23,
+          "median": 3,
+          "std": 1.25,
+          "min": 2,
+          "max": 6,
+          "count": 13
+        },
+        "内容质量": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 1.04,
+          "min": 5,
+          "max": 8,
+          "count": 13
+        }
+      }
+    }
+  },
+  "by_org": {
+    "个人势": {
+      "count": 43,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 1.01,
+          "min": 5,
+          "max": 9,
+          "count": 43
+        },
+        "互动效果": {
+          "mean": 7.0,
+          "median": 7,
+          "std": 1.24,
+          "min": 4,
+          "max": 9,
+          "count": 43
+        },
+        "粉丝关系": {
+          "mean": 7.35,
+          "median": 8,
+          "std": 1.63,
+          "min": 3,
+          "max": 10,
+          "count": 43
+        },
+        "流水营收": {
+          "mean": 6.07,
+          "median": 6,
+          "std": 1.82,
+          "min": 2,
+          "max": 9,
+          "count": 43
+        },
+        "个人状态": {
+          "mean": 5.1,
+          "median": 6,
+          "std": 1.79,
+          "min": 2,
+          "max": 8,
+          "count": 41
+        },
+        "内容质量": {
+          "mean": 7.42,
+          "median": 8,
+          "std": 1.38,
+          "min": 4,
+          "max": 9,
+          "count": 43
+        }
+      }
+    },
+    "企业势·中小箱": {
+      "count": 16,
+      "dimensions": {
+        "人设定位": {
+          "mean": 7.69,
+          "median": 8.0,
+          "std": 1.21,
+          "min": 5,
+          "max": 9,
+          "count": 16
+        },
+        "互动效果": {
+          "mean": 6.44,
+          "median": 6.5,
+          "std": 1.73,
+          "min": 3,
+          "max": 9,
+          "count": 16
+        },
+        "粉丝关系": {
+          "mean": 6.81,
+          "median": 7.5,
+          "std": 2.07,
+          "min": 3,
+          "max": 10,
+          "count": 16
+        },
+        "流水营收": {
+          "mean": 5.31,
+          "median": 5.5,
+          "std": 2.39,
+          "min": 2,
+          "max": 10,
+          "count": 16
+        },
+        "个人状态": {
+          "mean": 5.47,
+          "median": 6,
+          "std": 1.5,
+          "min": 2,
+          "max": 8,
+          "count": 15
+        },
+        "内容质量": {
+          "mean": 7.31,
+          "median": 8.0,
+          "std": 1.4,
+          "min": 4,
+          "max": 9,
+          "count": 16
+        }
+      }
+    },
+    "企业势·大箱": {
+      "count": 25,
+      "dimensions": {
+        "人设定位": {
+          "mean": 8.44,
+          "median": 9,
+          "std": 0.75,
+          "min": 7,
+          "max": 9,
+          "count": 25
+        },
+        "互动效果": {
+          "mean": 7.96,
+          "median": 8,
+          "std": 0.92,
+          "min": 6,
+          "max": 9,
+          "count": 25
+        },
+        "粉丝关系": {
+          "mean": 8.4,
+          "median": 9,
+          "std": 0.8,
+          "min": 7,
+          "max": 10,
+          "count": 25
+        },
+        "流水营收": {
+          "mean": 6.92,
+          "median": 7,
+          "std": 1.44,
+          "min": 3,
+          "max": 9,
+          "count": 25
+        },
+        "个人状态": {
+          "mean": 4.84,
+          "median": 5,
+          "std": 1.41,
+          "min": 2,
+          "max": 7,
+          "count": 25
+        },
+        "内容质量": {
+          "mean": 8.0,
+          "median": 8,
+          "std": 0.75,
+          "min": 7,
+          "max": 9,
+          "count": 25
+        }
+      }
+    }
+  },
+  "path_signals": {
+    "①": {
+      "total": 6,
+      "detection_rate": 100.0,
+      "strong_rate": 50.0,
+      "medium_rate": 33.3,
+      "weak_rate": 16.7,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①'": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①→": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①→（人设→互动·快变量）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①→（人设→互动·快）": {
+      "total": 11,
+      "detection_rate": 90.9,
+      "strong_rate": 90.9,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①→（人设→互动）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 50.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'": {
+      "total": 7,
+      "detection_rate": 42.9,
+      "strong_rate": 14.3,
+      "medium_rate": 28.6,
+      "weak_rate": 0.0,
+      "silent_rate": 14.3,
+      "insufficient_rate": 14.3,
+      "na_rate": 14.3
+    },
+    "①↺'表演→自我认知内化/工具化": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'表演→自我认知内化（极慢·主播端）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我認知內化）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知·主播端）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知·双向）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知·极慢）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知交互·双向）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知交互·极慢）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 100.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知交互）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/Bem+Stryker）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/工具·Bem+Stryker）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/工具·双向·极慢）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/工具·极慢变量）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/工具化）": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 50.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化/工具）": {
+      "total": 33,
+      "detection_rate": 63.6,
+      "strong_rate": 12.1,
+      "medium_rate": 42.4,
+      "weak_rate": 9.1,
+      "silent_rate": 0.0,
+      "insufficient_rate": 21.2,
+      "na_rate": 3.0
+    },
+    "①↺'（表演→自我认知内化·双向A/B）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化·极慢）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（表演→自我认知内化）": {
+      "total": 15,
+      "detection_rate": 80.0,
+      "strong_rate": 13.3,
+      "medium_rate": 40.0,
+      "weak_rate": 26.7,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 6.7
+    },
+    "①↺'（表演→自我认知）": {
+      "total": 4,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺'（长期表演→自我认知·双向）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 50.0,
+      "na_rate": 0.0
+    },
+    "①↺'（长期表演→自我认知内化）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺互动→人设（慢·观众端）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺（互动→人设·慢）": {
+      "total": 3,
+      "detection_rate": 66.7,
+      "strong_rate": 33.3,
+      "medium_rate": 33.3,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺（互动→人设·观众端·慢）": {
+      "total": 5,
+      "detection_rate": 80.0,
+      "strong_rate": 20.0,
+      "medium_rate": 60.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 20.0,
+      "na_rate": 0.0
+    },
+    "①↺（互动→人设·观众端慢变量）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺（互动→人设·观众端）": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 50.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①↺（互动→人设）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①人设→互动（快）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①人设⇄互动（Goffman前台×社会认知）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人設⇄互動）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设→互动·快）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·GoFfman前台决定表演）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·Goffman前台+SCT）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·Goffman前台→风格）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·Goffman前台理论）": {
+      "total": 3,
+      "detection_rate": 66.7,
+      "strong_rate": 66.7,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·双向·快/慢）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·双向）": {
+      "total": 5,
+      "detection_rate": 80.0,
+      "strong_rate": 80.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·快/慢双向）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动·快方向）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "①（人设⇄互动）": {
+      "total": 43,
+      "detection_rate": 88.4,
+      "strong_rate": 72.1,
+      "medium_rate": 16.3,
+      "weak_rate": 0.0,
+      "silent_rate": 2.3,
+      "insufficient_rate": 2.3,
+      "na_rate": 0.0
+    },
+    "②": {
+      "total": 8,
+      "detection_rate": 100.0,
+      "strong_rate": 50.0,
+      "medium_rate": 25.0,
+      "weak_rate": 25.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②'": {
+      "total": 8,
+      "detection_rate": 87.5,
+      "strong_rate": 75.0,
+      "medium_rate": 12.5,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 12.5,
+      "na_rate": 0.0
+    },
+    "②'粉丝关系→营收·关系型": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②'粉丝关系→营收·关系型互惠": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②'（粉丝→营收·关系型）": {
+      "total": 10,
+      "detection_rate": 90.0,
+      "strong_rate": 80.0,
+      "medium_rate": 10.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②'（粉丝关系→营收·关系型互惠）": {
+      "total": 10,
+      "detection_rate": 80.0,
+      "strong_rate": 70.0,
+      "medium_rate": 10.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②'（粉丝关系→营收·关系型）": {
+      "total": 52,
+      "detection_rate": 82.7,
+      "strong_rate": 67.3,
+      "medium_rate": 9.6,
+      "weak_rate": 5.8,
+      "silent_rate": 1.9,
+      "insufficient_rate": 5.8,
+      "na_rate": 0.0
+    },
+    "②'（粉絲關係→營收·關係型）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②互动→粉丝关系": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②互动→粉丝关系（准社会交往+SDT归属感）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②（互动→粉丝关系·准社会+SDT归属）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②（互动→粉丝关系·准社会交往+SDT归属感）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②（互动→粉丝关系·准社会交往）": {
+      "total": 4,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "②（互动→粉丝关系）": {
+      "total": 65,
+      "detection_rate": 87.7,
+      "strong_rate": 66.2,
+      "medium_rate": 16.9,
+      "weak_rate": 4.6,
+      "silent_rate": 0.0,
+      "insufficient_rate": 1.5,
+      "na_rate": 0.0
+    },
+    "②（互動→粉絲關係）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③": {
+      "total": 8,
+      "detection_rate": 62.5,
+      "strong_rate": 37.5,
+      "medium_rate": 12.5,
+      "weak_rate": 12.5,
+      "silent_rate": 12.5,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③互动≈内容": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③互动≈内容（Ong口语文化）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③（互动≈内容·Ong口语文化）": {
+      "total": 6,
+      "detection_rate": 83.3,
+      "strong_rate": 50.0,
+      "medium_rate": 33.3,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③（互动≈内容·口语文化重叠）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③（互动≈内容质量）": {
+      "total": 15,
+      "detection_rate": 53.3,
+      "strong_rate": 53.3,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "③（互动≈内容）": {
+      "total": 50,
+      "detection_rate": 64.0,
+      "strong_rate": 48.0,
+      "medium_rate": 14.0,
+      "weak_rate": 2.0,
+      "silent_rate": 2.0,
+      "insufficient_rate": 2.0,
+      "na_rate": 0.0
+    },
+    "③（互動≈內容）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "④": {
+      "total": 8,
+      "detection_rate": 87.5,
+      "strong_rate": 12.5,
+      "medium_rate": 50.0,
+      "weak_rate": 25.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "④互动→营收·交易型": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "④互动→营收·交易型互惠": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "④（互动→营收·交易型互惠）": {
+      "total": 11,
+      "detection_rate": 81.8,
+      "strong_rate": 9.1,
+      "medium_rate": 36.4,
+      "weak_rate": 36.4,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "④（互动→营收·交易型）": {
+      "total": 61,
+      "detection_rate": 85.2,
+      "strong_rate": 11.5,
+      "medium_rate": 31.1,
+      "weak_rate": 42.6,
+      "silent_rate": 1.6,
+      "insufficient_rate": 3.3,
+      "na_rate": 0.0
+    },
+    "④（互動→營收·交易型）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 50.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤": {
+      "total": 8,
+      "detection_rate": 50.0,
+      "strong_rate": 25.0,
+      "medium_rate": 25.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 12.5,
+      "na_rate": 12.5
+    },
+    "⑤'": {
+      "total": 7,
+      "detection_rate": 71.4,
+      "strong_rate": 42.9,
+      "medium_rate": 28.6,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 14.3,
+      "na_rate": 14.3
+    },
+    "⑤'粉丝关系→状态·社会支持缓冲": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝→状态·社会支持缓冲）": {
+      "total": 8,
+      "detection_rate": 100.0,
+      "strong_rate": 37.5,
+      "medium_rate": 62.5,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝→状态·社会支持）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝→状态·缓冲）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝关系→状态·Lazarus社会支持缓冲）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝关系→状态·社会支持缓冲）": {
+      "total": 57,
+      "detection_rate": 82.5,
+      "strong_rate": 45.6,
+      "medium_rate": 28.1,
+      "weak_rate": 8.8,
+      "silent_rate": 0.0,
+      "insufficient_rate": 1.8,
+      "na_rate": 1.8
+    },
+    "⑤'（粉丝关系→状态·社会支持）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 50.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉丝关系→状态·缓冲）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤'（粉絲關係→狀態·社會支持緩衝）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤互动→状态·情绪劳动消耗": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤互动→状态·情绪消耗": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤（互动→状态·Hochschild情绪劳动消耗）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤（互动→状态·Hochschild情绪消耗）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤（互动→状态·情绪劳动消耗）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑤（互动→状态·情绪消耗）": {
+      "total": 69,
+      "detection_rate": 79.7,
+      "strong_rate": 40.6,
+      "medium_rate": 29.0,
+      "weak_rate": 10.1,
+      "silent_rate": 0.0,
+      "insufficient_rate": 2.9,
+      "na_rate": 1.4
+    },
+    "⑤（互動→狀態·情緒消耗）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥": {
+      "total": 8,
+      "detection_rate": 37.5,
+      "strong_rate": 12.5,
+      "medium_rate": 25.0,
+      "weak_rate": 0.0,
+      "silent_rate": 12.5,
+      "insufficient_rate": 12.5,
+      "na_rate": 12.5
+    },
+    "⑥'": {
+      "total": 7,
+      "detection_rate": 42.9,
+      "strong_rate": 0.0,
+      "medium_rate": 42.9,
+      "weak_rate": 0.0,
+      "silent_rate": 14.3,
+      "insufficient_rate": 14.3,
+      "na_rate": 14.3
+    },
+    "⑥'营收⇄状态·双向反馈": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥'营收⇄状态·双向反馈（SDT+Lazarus）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 100.0,
+      "na_rate": 0.0
+    },
+    "⑥'（營收⇄狀態·双向反饋）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥'（營收⇄狀態·雙向反饋）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 100.0,
+      "na_rate": 0.0
+    },
+    "⑥'（营收⇄状态·SDT胜任感+Lazarus）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 100.0,
+      "na_rate": 0.0
+    },
+    "⑥'（营收⇄状态·SDT胜任感+威胁评估）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥'（营收⇄状态·双向反馈）": {
+      "total": 69,
+      "detection_rate": 55.1,
+      "strong_rate": 7.2,
+      "medium_rate": 34.8,
+      "weak_rate": 13.0,
+      "silent_rate": 2.9,
+      "insufficient_rate": 8.7,
+      "na_rate": 1.4
+    },
+    "⑥'（营收⇄状态·双向）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥状态→人设·前台崩塌": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥状态→人设·前台崩塌（Goffman）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥（状态→人设·Goffman前台崩塌）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥（状态→人设·前台崩塌·受心之壁约束）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥（状态→人设·前台崩塌）": {
+      "total": 69,
+      "detection_rate": 44.9,
+      "strong_rate": 14.5,
+      "medium_rate": 10.1,
+      "weak_rate": 20.3,
+      "silent_rate": 23.2,
+      "insufficient_rate": 1.4,
+      "na_rate": 1.4
+    },
+    "⑥（状态→人设·前台崩塌）⚠": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑥（狀態→人設·前台崩塌）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦": {
+      "total": 8,
+      "detection_rate": 87.5,
+      "strong_rate": 12.5,
+      "medium_rate": 62.5,
+      "weak_rate": 12.5,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 12.5
+    },
+    "⑦'": {
+      "total": 3,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 33.3,
+      "insufficient_rate": 33.3,
+      "na_rate": 0.0
+    },
+    "⑦'直播行为→状态·生理消耗基线": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（生理→状态·生理基线）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（直播→状态·生理基线）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（直播行为→状态·生理消耗基线）": {
+      "total": 11,
+      "detection_rate": 54.5,
+      "strong_rate": 36.4,
+      "medium_rate": 18.2,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 9.1,
+      "na_rate": 9.1
+    },
+    "⑦'（直播行为→状态·生理消耗）": {
+      "total": 13,
+      "detection_rate": 61.5,
+      "strong_rate": 30.8,
+      "medium_rate": 30.8,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 23.1,
+      "na_rate": 0.0
+    },
+    "⑦'（直播行为→状态·生理消耗）⚠": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（直播行为→状态·生理负荷）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（直播行為→狀態·生理基線）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦'（直播行為→狀態·生理消耗）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦内容→状态·认知负荷": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦内容→状态·认知负荷消耗": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦（內容→狀態·認知負荷）": {
+      "total": 2,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦（内容→状态·Sweller认知负荷）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦（内容→状态·认知负荷消耗）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑦（内容→状态·认知负荷）": {
+      "total": 70,
+      "detection_rate": 71.4,
+      "strong_rate": 4.3,
+      "medium_rate": 32.9,
+      "weak_rate": 34.3,
+      "silent_rate": 1.4,
+      "insufficient_rate": 2.9,
+      "na_rate": 1.4
+    },
+    "⑧": {
+      "total": 8,
+      "detection_rate": 75.0,
+      "strong_rate": 12.5,
+      "medium_rate": 50.0,
+      "weak_rate": 12.5,
+      "silent_rate": 0.0,
+      "insufficient_rate": 12.5,
+      "na_rate": 0.0
+    },
+    "⑧粉丝关系→人设·粉圈塑形": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧粉丝关系→人设·粉圈塑形（慢变量）": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 100.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝→人设·粉圈塑形/Snyder自我监控）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝→人设·粉圈塑形·慢）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝→人设·粉圈塑形）": {
+      "total": 9,
+      "detection_rate": 77.8,
+      "strong_rate": 11.1,
+      "medium_rate": 44.4,
+      "weak_rate": 22.2,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝关系→人设·粉圈塑形·慢·跨场）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝关系→人设·粉圈塑形·慢变量）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝关系→人设·粉圈塑形·慢）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉丝关系→人设·粉圈塑形）": {
+      "total": 57,
+      "detection_rate": 77.2,
+      "strong_rate": 10.5,
+      "medium_rate": 49.1,
+      "weak_rate": 17.5,
+      "silent_rate": 0.0,
+      "insufficient_rate": 5.3,
+      "na_rate": 1.8
+    },
+    "⑧（粉丝关系→人设·粉圈塑形）⚠": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑧（粉絲關係→人設·粉圈塑形）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨": {
+      "total": 8,
+      "detection_rate": 62.5,
+      "strong_rate": 12.5,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 12.5
+    },
+    "⑨'": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨人设→状态·前台维护固定成本": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨（人設→狀態·前台維護成本）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨（人设→状态·前台维护固定成本）": {
+      "total": 18,
+      "detection_rate": 77.8,
+      "strong_rate": 22.2,
+      "medium_rate": 50.0,
+      "weak_rate": 5.6,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨（人设→状态·前台维护成本·跨场）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 100.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑨（人设→状态·前台维护成本）": {
+      "total": 40,
+      "detection_rate": 77.5,
+      "strong_rate": 10.0,
+      "medium_rate": 65.0,
+      "weak_rate": 2.5,
+      "silent_rate": 0.0,
+      "insufficient_rate": 5.0,
+      "na_rate": 2.5
+    },
+    "⑨（人设→状态·维护成本）": {
+      "total": 13,
+      "detection_rate": 76.9,
+      "strong_rate": 23.1,
+      "medium_rate": 46.2,
+      "weak_rate": 7.7,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑩": {
+      "total": 8,
+      "detection_rate": 75.0,
+      "strong_rate": 62.5,
+      "medium_rate": 0.0,
+      "weak_rate": 12.5,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑩人设→内容·叙事约束": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑩（人設→內容·敘事約束）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑩（人设→内容·叙事约束）": {
+      "total": 72,
+      "detection_rate": 79.2,
+      "strong_rate": 65.3,
+      "medium_rate": 13.9,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑪": {
+      "total": 7,
+      "detection_rate": 85.7,
+      "strong_rate": 57.1,
+      "medium_rate": 28.6,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑪内容→粉丝关系": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑪（內容→粉絲關係）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 50.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑪（内容→粉丝关系·内容驱动归属）": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑪（内容→粉丝关系）": {
+      "total": 70,
+      "detection_rate": 85.7,
+      "strong_rate": 54.3,
+      "medium_rate": 28.6,
+      "weak_rate": 2.9,
+      "silent_rate": 1.4,
+      "insufficient_rate": 1.4,
+      "na_rate": 0.0
+    },
+    "⑫": {
+      "total": 7,
+      "detection_rate": 85.7,
+      "strong_rate": 42.9,
+      "medium_rate": 42.9,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑫粉丝→内容·群体共创": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 50.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑫（粉丝→内容·群体共创·慢·跨场）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑫（粉丝→内容·群体共创·慢）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 100.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑫（粉丝→内容·群体共创）": {
+      "total": 69,
+      "detection_rate": 81.2,
+      "strong_rate": 39.1,
+      "medium_rate": 33.3,
+      "weak_rate": 8.7,
+      "silent_rate": 0.0,
+      "insufficient_rate": 5.8,
+      "na_rate": 1.4
+    },
+    "⑫（粉丝→内容·群体共创）⚠": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑫（粉絲→內容·群體共創）": {
+      "total": 2,
+      "detection_rate": 50.0,
+      "strong_rate": 0.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑬": {
+      "total": 7,
+      "detection_rate": 57.1,
+      "strong_rate": 0.0,
+      "medium_rate": 28.6,
+      "weak_rate": 28.6,
+      "silent_rate": 0.0,
+      "insufficient_rate": 14.3,
+      "na_rate": 0.0
+    },
+    "⑬营收→内容·资源投入": {
+      "total": 2,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 50.0,
+      "na_rate": 0.0
+    },
+    "⑬（營收→內容·資源投入）": {
+      "total": 2,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 50.0,
+      "na_rate": 0.0
+    },
+    "⑬（营收→内容·资源投入·跨场）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⑬（营收→内容·资源投入）": {
+      "total": 71,
+      "detection_rate": 62.0,
+      "strong_rate": 9.9,
+      "medium_rate": 39.4,
+      "weak_rate": 12.7,
+      "silent_rate": 2.8,
+      "insufficient_rate": 22.5,
+      "na_rate": 0.0
+    },
+    "⑭": {
+      "total": 2,
+      "detection_rate": 100.0,
+      "strong_rate": 50.0,
+      "medium_rate": 50.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "⚔": {
+      "total": 1,
+      "detection_rate": 0.0,
+      "strong_rate": 0.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    },
+    "编号（路径说明）": {
+      "total": 1,
+      "detection_rate": 100.0,
+      "strong_rate": 100.0,
+      "medium_rate": 0.0,
+      "weak_rate": 0.0,
+      "silent_rate": 0.0,
+      "insufficient_rate": 0.0,
+      "na_rate": 0.0
+    }
+  },
+  "contradiction_frequency": {
+    "其他矛盾信号": 50,
+    "④互动→营收断裂": 16,
+    "⑥状态→人设·前台崩塌": 11,
+    "②互动→粉丝关系": 10,
+    "⑨时长→状态": 5
+  },
+  "heart_wall_distribution": {
+    "by_type": {
+      "厚壁": 45,
+      "企业强制厚壁": 11,
+      "薄壁": 11,
+      "中偏厚": 8,
+      "未知": 6,
+      "企业强制厚壁——Brave group APAC的企业运营模式下，中之人前台与后台严格隔离": 1,
+      "**是（hololive时期）+ 部分解冻（Studio STELLAR后）**": 1,
+      "路径A+B混合": 1
+    },
+    "by_risk": {
+      "未知": 13,
+      "": 13,
+      "**中**": 9,
+      "**中高**": 4,
+      "**低**": 3,
+      "**高**": 3,
+      "**中等**": 2,
+      "低-中": 2,
+      "中": 2,
+      "中等": 2,
+      "**高** ⚠": 1,
+      "低-中（特殊——厚壁非防御性）": 1,
+      "已发生部分断裂——Amakara的集中毕业暗示运营方与中之人之间可能存在信息不对称或信任破裂": 1,
+      "**低→中（需关注）**": 1,
+      "**低（退役后已闭环）**": 1,
+      "**中高风险** ⚠": 1,
+      "中-高": 1,
+      "**中高**（Medium-High）": 1,
+      "**低至中**": 1,
+      "**中→高**（假性稳定风险）": 1,
+      "**低**（当前）——因已主动退役，不存在\"假性稳定\"的持续性风险。但在运营期间，风险为**高**。": 1,
+      "**高（⚠ 假性稳定风险）**": 1,
+      "⚠ **从\"高风险假性稳定\"向\"可控崩塌\"过渡中**": 1,
+      "**中高** ⚠": 1,
+      "**高（已触发）**": 1,
+      "**高**（假性稳定风险）": 1,
+      "⚠ 高（假性稳定）": 1,
+      "**高** — 但风险类型改变（已触发最终崩塌）": 1,
+      "中**（毕业决策已部分释放风险）": 1,
+      "**中高（已释放）**": 1,
+      "**中高**（因已毕业，风险已部分释放）": 1,
+      "**高**（已实际发生崩塌）": 1,
+      "中等（已从高风险下降）": 1,
+      "**高（已实现——毕业退役）**": 1,
+      "**高（已爆发）**": 1,
+      "中高": 1,
+      "**高（已触发·不可逆）**": 1,
+      "**中等（有隐忧）**": 1,
+      "**中（중간 위험）**": 1,
+      "低": 1,
+      "**中 ⚠️**": 1
+    }
+  },
+  "heart_wall_cross_table": {
+    "thick_retired": 9,
+    "thick_active": 56,
+    "thin_retired": 4,
+    "thin_active": 15,
+    "thick_wall_pseudo_stability_rate": 13.8
+  },
+  "outliers": [
+    {
+      "name": "MiraPink",
+      "dimension": "内容质量",
+      "score": 4,
+      "group": "英语圈",
+      "group_mean": 7.83,
+      "z_score": -3.29,
+      "deviation": -3.83
+    },
+    {
+      "name": "暁月宵音",
+      "dimension": "人设定位",
+      "score": 5,
+      "group": "日本",
+      "group_mean": 8.03,
+      "z_score": -2.6,
+      "deviation": -3.03
+    },
+    {
+      "name": "琥珀玲",
+      "dimension": "人设定位",
+      "score": 5,
+      "group": "日本",
+      "group_mean": 8.03,
+      "z_score": -2.6,
+      "deviation": -3.03
+    },
+    {
+      "name": "鹿鸣",
+      "dimension": "互动效果",
+      "score": 3,
+      "group": "中国大陆",
+      "group_mean": 6.9,
+      "z_score": -2.58,
+      "deviation": -3.9
+    },
+    {
+      "name": "MiraPink",
+      "dimension": "人设定位",
+      "score": 6,
+      "group": "英语圈",
+      "group_mean": 8.06,
+      "z_score": -2.42,
+      "deviation": -2.06
+    },
+    {
+      "name": "MiraPink",
+      "dimension": "粉丝关系",
+      "score": 4,
+      "group": "英语圈",
+      "group_mean": 7.67,
+      "z_score": -2.4,
+      "deviation": -3.67
+    },
+    {
+      "name": "不知火フレア",
+      "dimension": "人设定位",
+      "score": 7,
+      "group": "未分类",
+      "group_mean": 8.55,
+      "z_score": -2.36,
+      "deviation": -1.55
+    },
+    {
+      "name": "琥珀玲",
+      "dimension": "内容质量",
+      "score": 4,
+      "group": "日本",
+      "group_mean": 7.31,
+      "z_score": -2.34,
+      "deviation": -3.31
+    },
+    {
+      "name": "ゆうぎり高校",
+      "dimension": "粉丝关系",
+      "score": 3,
+      "group": "日本",
+      "group_mean": 7.33,
+      "z_score": -2.28,
+      "deviation": -4.33
+    },
+    {
+      "name": "暁月宵音",
+      "dimension": "粉丝关系",
+      "score": 3,
+      "group": "日本",
+      "group_mean": 7.33,
+      "z_score": -2.28,
+      "deviation": -4.33
+    },
+    {
+      "name": "琥珀玲",
+      "dimension": "粉丝关系",
+      "score": 3,
+      "group": "日本",
+      "group_mean": 7.33,
+      "z_score": -2.28,
+      "deviation": -4.33
+    },
+    {
+      "name": "鹿鸣",
+      "dimension": "粉丝关系",
+      "score": 5,
+      "group": "中国大陆",
+      "group_mean": 7.5,
+      "z_score": -2.24,
+      "deviation": -2.5
+    },
+    {
+      "name": "阿萨",
+      "dimension": "粉丝关系",
+      "score": 10,
+      "group": "未分类",
+      "group_mean": 8.55,
+      "z_score": 2.22,
+      "deviation": 1.45
+    },
+    {
+      "name": "鹿鸣",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "中国大陆",
+      "group_mean": 5.8,
+      "z_score": -2.21,
+      "deviation": -3.8
+    },
+    {
+      "name": "阿萨",
+      "dimension": "流水营收",
+      "score": 10,
+      "group": "未分类",
+      "group_mean": 7.45,
+      "z_score": 2.2,
+      "deviation": 2.55
+    },
+    {
+      "name": "MiraPink",
+      "dimension": "互动效果",
+      "score": 5,
+      "group": "英语圈",
+      "group_mean": 7.06,
+      "z_score": -2.12,
+      "deviation": -2.06
+    },
+    {
+      "name": "不知火フレア",
+      "dimension": "内容质量",
+      "score": 7,
+      "group": "未分类",
+      "group_mean": 8.36,
+      "z_score": -2.12,
+      "deviation": -1.36
+    },
+    {
+      "name": "ゆうぎり高校",
+      "dimension": "互动效果",
+      "score": 4,
+      "group": "日本",
+      "group_mean": 7.06,
+      "z_score": -2.1,
+      "deviation": -3.06
+    },
+    {
+      "name": "暁月宵音",
+      "dimension": "互动效果",
+      "score": 4,
+      "group": "日本",
+      "group_mean": 7.06,
+      "z_score": -2.1,
+      "deviation": -3.06
+    },
+    {
+      "name": "琥珀玲",
+      "dimension": "互动效果",
+      "score": 4,
+      "group": "日本",
+      "group_mean": 7.06,
+      "z_score": -2.1,
+      "deviation": -3.06
+    },
+    {
+      "name": "ASTarsProduction",
+      "dimension": "人设定位",
+      "score": 5,
+      "group": "东南亚及其他",
+      "group_mean": 7.4,
+      "z_score": -2.0,
+      "deviation": -2.4
+    },
+    {
+      "name": "ASTarsProduction",
+      "dimension": "粉丝关系",
+      "score": 3,
+      "group": "东南亚及其他",
+      "group_mean": 7.0,
+      "z_score": -2.0,
+      "deviation": -4.0
+    },
+    {
+      "name": "Ironmouse",
+      "dimension": "互动效果",
+      "score": 9,
+      "group": "英语圈",
+      "group_mean": 7.06,
+      "z_score": 2.0,
+      "deviation": 1.94
+    },
+    {
+      "name": "ASTarsProduction",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "东南亚及其他",
+      "group_mean": 5.8,
+      "z_score": -1.96,
+      "deviation": -3.8
+    },
+    {
+      "name": "ASTarsProduction",
+      "dimension": "内容质量",
+      "score": 4,
+      "group": "东南亚及其他",
+      "group_mean": 7.0,
+      "z_score": -1.94,
+      "deviation": -3.0
+    },
+    {
+      "name": "珈乐",
+      "dimension": "个人状态",
+      "score": 2,
+      "group": "中国大陆",
+      "group_mean": 4.89,
+      "z_score": -1.9,
+      "deviation": -2.89
+    },
+    {
+      "name": "Ironmouse",
+      "dimension": "个人状态",
+      "score": 7,
+      "group": "英语圈",
+      "group_mean": 4.33,
+      "z_score": 1.84,
+      "deviation": 2.67
+    },
+    {
+      "name": "MiraPink",
+      "dimension": "流水营收",
+      "score": 4,
+      "group": "英语圈",
+      "group_mean": 6.61,
+      "z_score": -1.79,
+      "deviation": -2.61
+    },
+    {
+      "name": "Psydere",
+      "dimension": "流水营收",
+      "score": 4,
+      "group": "英语圈",
+      "group_mean": 6.61,
+      "z_score": -1.79,
+      "deviation": -2.61
+    },
+    {
+      "name": "ぴかまる",
+      "dimension": "粉丝关系",
+      "score": 4,
+      "group": "日本",
+      "group_mean": 7.33,
+      "z_score": -1.75,
+      "deviation": -3.33
+    },
+    {
+      "name": "Sinder",
+      "dimension": "粉丝关系",
+      "score": 5,
+      "group": "英语圈",
+      "group_mean": 7.67,
+      "z_score": -1.75,
+      "deviation": -2.67
+    },
+    {
+      "name": "碧居结衣",
+      "dimension": "人设定位",
+      "score": 6,
+      "group": "日本",
+      "group_mean": 8.03,
+      "z_score": -1.74,
+      "deviation": -2.03
+    },
+    {
+      "name": "YagamiNoah",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 5.72,
+      "z_score": -1.73,
+      "deviation": -3.72
+    },
+    {
+      "name": "ぴかまる",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 5.72,
+      "z_score": -1.73,
+      "deviation": -3.72
+    },
+    {
+      "name": "ゆうぎり高校",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 5.72,
+      "z_score": -1.73,
+      "deviation": -3.72
+    },
+    {
+      "name": "暁月宵音",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 5.72,
+      "z_score": -1.73,
+      "deviation": -3.72
+    },
+    {
+      "name": "琥珀玲",
+      "dimension": "流水营收",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 5.72,
+      "z_score": -1.73,
+      "deviation": -3.72
+    },
+    {
+      "name": "AmiYamato",
+      "dimension": "个人状态",
+      "score": 8,
+      "group": "日本",
+      "group_mean": 4.97,
+      "z_score": 1.7,
+      "deviation": 3.03
+    },
+    {
+      "name": "KoboKanaeru",
+      "dimension": "个人状态",
+      "score": 5,
+      "group": "未分类",
+      "group_mean": 6.27,
+      "z_score": -1.7,
+      "deviation": -1.27
+    },
+    {
+      "name": "壱百満天原サロメ",
+      "dimension": "个人状态",
+      "score": 5,
+      "group": "未分类",
+      "group_mean": 6.27,
+      "z_score": -1.7,
+      "deviation": -1.27
+    },
+    {
+      "name": "沙花叉クロヱ",
+      "dimension": "个人状态",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 4.97,
+      "z_score": -1.67,
+      "deviation": -2.97
+    },
+    {
+      "name": "真白花音",
+      "dimension": "个人状态",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 4.97,
+      "z_score": -1.67,
+      "deviation": -2.97
+    },
+    {
+      "name": "道明寺ここあ",
+      "dimension": "个人状态",
+      "score": 2,
+      "group": "日本",
+      "group_mean": 4.97,
+      "z_score": -1.67,
+      "deviation": -2.97
+    },
+    {
+      "name": "Ironmouse",
+      "dimension": "流水营收",
+      "score": 9,
+      "group": "英语圈",
+      "group_mean": 6.61,
+      "z_score": 1.64,
+      "deviation": 2.39
+    },
+    {
+      "name": "星瞳",
+      "dimension": "内容质量",
+      "score": 9,
+      "group": "中国大陆",
+      "group_mean": 7.5,
+      "z_score": 1.63,
+      "deviation": 1.5
+    },
+    {
+      "name": "沐霂",
+      "dimension": "内容质量",
+      "score": 6,
+      "group": "中国大陆",
+      "group_mean": 7.5,
+      "z_score": -1.63,
+      "deviation": -1.5
+    },
+    {
+      "name": "纱奈Sana",
+      "dimension": "内容质量",
+      "score": 6,
+      "group": "中国大陆",
+      "group_mean": 7.5,
+      "z_score": -1.63,
+      "deviation": -1.5
+    },
+    {
+      "name": "YagamiNoah",
+      "dimension": "内容质量",
+      "score": 5,
+      "group": "日本",
+      "group_mean": 7.31,
+      "z_score": -1.63,
+      "deviation": -2.31
+    },
+    {
+      "name": "ゆうぎり高校",
+      "dimension": "内容质量",
+      "score": 5,
+      "group": "日本",
+      "group_mean": 7.31,
+      "z_score": -1.63,
+      "deviation": -2.31
+    },
+    {
+      "name": "暁月宵音",
+      "dimension": "内容质量",
+      "score": 5,
+      "group": "日本",
+      "group_mean": 7.31,
+      "z_score": -1.63,
+      "deviation": -2.31
+    }
+  ],
+  "regional_differences": {
+    "dim_means_by_region": {
+      "东南亚及其他": {
+        "人设定位": 7.4,
+        "互动效果": 6.6,
+        "粉丝关系": 7.0,
+        "流水营收": 5.8,
+        "个人状态": 6.0,
+        "内容质量": 7.0
+      },
+      "中国大陆": {
+        "人设定位": 8.2,
+        "互动效果": 6.9,
+        "粉丝关系": 7.5,
+        "流水营收": 5.8,
+        "个人状态": 4.89,
+        "内容质量": 7.5
+      },
+      "日本": {
+        "人设定位": 8.03,
+        "互动效果": 7.06,
+        "粉丝关系": 7.33,
+        "流水营收": 5.72,
+        "个人状态": 4.97,
+        "内容质量": 7.31
+      },
+      "未分类": {
+        "人设定位": 8.55,
+        "互动效果": 8.09,
+        "粉丝关系": 8.55,
+        "流水营收": 7.45,
+        "个人状态": 6.27,
+        "内容质量": 8.36
+      },
+      "特殊案例": {
+        "人设定位": 7.0,
+        "互动效果": 8.0,
+        "粉丝关系": 7.0,
+        "流水营收": 9.0,
+        "内容质量": 8.0
+      },
+      "英语圈": {
+        "人设定位": 8.06,
+        "互动效果": 7.06,
+        "粉丝关系": 7.67,
+        "流水营收": 6.61,
+        "个人状态": 4.33,
+        "内容质量": 7.83
+      },
+      "韩国": {
+        "人设定位": 8.0,
+        "互动效果": 7.67,
+        "粉丝关系": 7.33,
+        "流水营收": 5.33,
+        "个人状态": 5.67,
+        "内容质量": 7.33
+      }
+    },
+    "significant_diffs": [
+      {
+        "region1": "特殊案例",
+        "region2": "韩国",
+        "dimension": "流水营收",
+        "diff": 3.67
+      },
+      {
+        "region1": "日本",
+        "region2": "特殊案例",
+        "dimension": "流水营收",
+        "diff": -3.28
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "特殊案例",
+        "dimension": "流水营收",
+        "diff": -3.2
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "特殊案例",
+        "dimension": "流水营收",
+        "diff": -3.2
+      },
+      {
+        "region1": "特殊案例",
+        "region2": "英语圈",
+        "dimension": "流水营收",
+        "diff": 2.39
+      },
+      {
+        "region1": "未分类",
+        "region2": "韩国",
+        "dimension": "流水营收",
+        "diff": 2.12
+      },
+      {
+        "region1": "未分类",
+        "region2": "英语圈",
+        "dimension": "个人状态",
+        "diff": 1.94
+      },
+      {
+        "region1": "日本",
+        "region2": "未分类",
+        "dimension": "流水营收",
+        "diff": -1.73
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "英语圈",
+        "dimension": "个人状态",
+        "diff": 1.67
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "未分类",
+        "dimension": "流水营收",
+        "diff": -1.65
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "未分类",
+        "dimension": "流水营收",
+        "diff": -1.65
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "未分类",
+        "dimension": "粉丝关系",
+        "diff": -1.55
+      },
+      {
+        "region1": "未分类",
+        "region2": "特殊案例",
+        "dimension": "人设定位",
+        "diff": 1.55
+      },
+      {
+        "region1": "未分类",
+        "region2": "特殊案例",
+        "dimension": "粉丝关系",
+        "diff": 1.55
+      },
+      {
+        "region1": "未分类",
+        "region2": "特殊案例",
+        "dimension": "流水营收",
+        "diff": -1.55
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "未分类",
+        "dimension": "互动效果",
+        "diff": -1.49
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "特殊案例",
+        "dimension": "互动效果",
+        "diff": -1.4
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "未分类",
+        "dimension": "个人状态",
+        "diff": -1.38
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "未分类",
+        "dimension": "内容质量",
+        "diff": -1.36
+      },
+      {
+        "region1": "英语圈",
+        "region2": "韩国",
+        "dimension": "个人状态",
+        "diff": -1.34
+      },
+      {
+        "region1": "日本",
+        "region2": "未分类",
+        "dimension": "个人状态",
+        "diff": -1.3
+      },
+      {
+        "region1": "英语圈",
+        "region2": "韩国",
+        "dimension": "流水营收",
+        "diff": 1.28
+      },
+      {
+        "region1": "日本",
+        "region2": "未分类",
+        "dimension": "粉丝关系",
+        "diff": -1.22
+      },
+      {
+        "region1": "未分类",
+        "region2": "韩国",
+        "dimension": "粉丝关系",
+        "diff": 1.22
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "特殊案例",
+        "dimension": "人设定位",
+        "diff": 1.2
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "未分类",
+        "dimension": "互动效果",
+        "diff": -1.19
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "未分类",
+        "dimension": "人设定位",
+        "diff": -1.15
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "中国大陆",
+        "dimension": "个人状态",
+        "diff": 1.11
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "特殊案例",
+        "dimension": "互动效果",
+        "diff": -1.1
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "韩国",
+        "dimension": "互动效果",
+        "diff": -1.07
+      },
+      {
+        "region1": "特殊案例",
+        "region2": "英语圈",
+        "dimension": "人设定位",
+        "diff": -1.06
+      },
+      {
+        "region1": "中国大陆",
+        "region2": "未分类",
+        "dimension": "粉丝关系",
+        "diff": -1.05
+      },
+      {
+        "region1": "日本",
+        "region2": "未分类",
+        "dimension": "内容质量",
+        "diff": -1.05
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "日本",
+        "dimension": "个人状态",
+        "diff": 1.03
+      },
+      {
+        "region1": "日本",
+        "region2": "未分类",
+        "dimension": "互动效果",
+        "diff": -1.03
+      },
+      {
+        "region1": "日本",
+        "region2": "特殊案例",
+        "dimension": "人设定位",
+        "diff": 1.03
+      },
+      {
+        "region1": "未分类",
+        "region2": "英语圈",
+        "dimension": "互动效果",
+        "diff": 1.03
+      },
+      {
+        "region1": "未分类",
+        "region2": "韩国",
+        "dimension": "内容质量",
+        "diff": 1.03
+      },
+      {
+        "region1": "东南亚及其他",
+        "region2": "特殊案例",
+        "dimension": "内容质量",
+        "diff": -1.0
+      },
+      {
+        "region1": "特殊案例",
+        "region2": "韩国",
+        "dimension": "人设定位",
+        "diff": -1.0
+      }
+    ]
+  }
+}
