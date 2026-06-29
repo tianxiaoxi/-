@@ -1,0 +1,173 @@
+meta:
+  version: 1
+  turn_count: 7
+  last_updated: '2026-06-27T15:15:36.043278+00:00'
+resources:
+  energy_pool: 0.1788
+  engagement: 0.4644
+demands:
+  emotional: 0.3387
+  cognitive: 0.1311
+  physical: 0.0181
+  psychological: 0.0825
+resources_detail:
+  social_support: 0.7123
+  performance_feedback: 0.6577
+burnout_risk: 0.8212
+spiral_direction: loss
+cor_loss_accumulated: 0.6712
+heart_wall:
+  thickness: 0.4
+  baseline: 0.4
+  label: 偏薄
+  snyder_score: 0.37
+  integrity: 0.69
+  crack_mode: null
+  crack_signals:
+  - 'T5: 微妙的语气变化 — 心之壁轻微松动'
+  - 'T6: 微妙的语气变化 — 心之壁轻微松动'
+  - 'T7: 持续强迫表演下心之壁出现细微磨损'
+  cumulative_sa_load: 2.88
+  sa_recovery_rate: 0.02
+persona:
+  integrity: 0.905
+  drift_direction: stable
+  forbidden_violations: 0
+  last_break_turn: null
+relationship:
+  warmth: 0.605
+  trust: 0.605
+  attachment_intensity: 0.5
+  direction: cooling
+  positive_count: 1
+  negative_count: 0
+  boundary_tests: 0
+content_quality:
+  coherence: 0.65
+  creativity: 0.78
+  depth: 0.69
+  persona_fit: 0.9
+self_perception:
+  identity_fusion: 0.3065
+  authentic_distance: 0.6935
+social_ecology:
+  user_role: friend
+  role_confidence: 0.5
+  accumulated_co_creation: 1
+  long_term_memory_hints: []
+sensitivities:
+  emotional: 1.17
+  cognitive: 0.66
+  physical: 0.27
+  psychological: 1.23
+  social_support: 0.82
+  performance_feedback: 0.77
+five_domain:
+  domain_resistance:
+    autonomy: 0.14
+    social: 0.235
+    financial: 0.08
+    cognitive: 0.259
+    peer: 0.12
+  domain_sensitivity:
+    autonomy: 0.86
+    social: 0.76
+    financial: 0.92
+    cognitive: 0.74
+    peer: 0.88
+  yongshen_domain: cognitive
+  yongshen_boost: 1.5
+ritual_chain:
+  last_ritual: 'T7: partial ritual (sa=forced, fb=negative, cq=awkward, ts=2)'
+  last_output:
+    emotional_energy: 0.0
+    group_solidarity: -0.01
+    sacred_symbols: []
+    morality: 0.0
+  chain_length: 7
+  consecutive_success: 1
+  consecutive_failure: 0
+  ee_reservoir: 0.1138
+  ee_half_life: 5
+  ee_domain_profile:
+    autonomy: 0.0
+    social: 0.1307
+    financial: 0.0
+    cognitive: 0.0
+    peer: 0.0
+  dominant_domain: social
+  dominant_domain_unchanged: 6
+  domain_attraction:
+    autonomy: -0.1
+    social: 0.1307
+    financial: -0.1
+    cognitive: -0.1
+    peer: -0.1
+ritual_memory:
+  compressed_memories:
+  - domain: social
+    outcome: success
+    emotional_energy: 0.3
+    turn: 1
+    narrative_tag: 成功仪式
+  - domain: cognitive
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 2
+    narrative_tag: 部分仪式
+  - domain: social
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 3
+    narrative_tag: 部分仪式
+  - domain: social
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 4
+    narrative_tag: 部分仪式
+  - domain: social
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 5
+    narrative_tag: 部分仪式
+  - domain: social
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 6
+    narrative_tag: 部分仪式
+  - domain: social
+    outcome: partial
+    emotional_energy: 0.0
+    turn: 7
+    narrative_tag: 部分仪式
+  narrative_summary: ''
+  retrieval_bias: 0.0
+events:
+- turn: 1
+  description: T1 | 表面表演=normal 反馈=positive 质量=smooth Δ=-0.0205
+  energy_delta: -0.0205
+  net_delta: -0.0205
+- turn: 2
+  description: T2 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.0822
+  energy_delta: -0.0822
+  net_delta: -0.0822
+- turn: 3
+  description: T3 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.0749
+  energy_delta: -0.0749
+  net_delta: -0.0749
+- turn: 4
+  description: T4 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.1146
+  energy_delta: -0.1146
+  net_delta: -0.1146
+- turn: 5
+  description: T5 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.1146
+  energy_delta: -0.1146
+  net_delta: -0.1146
+- turn: 6
+  description: T6 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.1322
+  energy_delta: -0.1322
+  net_delta: -0.1322
+- turn: 7
+  description: T7 | 表面表演=forced 反馈=negative 质量=awkward Δ=-0.1322
+  energy_delta: -0.1322
+  net_delta: -0.1322

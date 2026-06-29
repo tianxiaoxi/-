@@ -1,0 +1,127 @@
+# ─── JD-R 后台状态 ──────────────────────────────────────────────
+# 由 compute_state.py 维护，每轮对话后自动更新
+# ────────────────────────────────────────────────────────────────
+
+meta:
+  version: 1
+  turn_count: 0               # 累计对话轮数
+  last_updated: ""            # ISO 时间戳
+
+# ── JD-R 资源池 ──
+resources:
+  energy_pool: 0.85           # COR 总资源池 (0=耗尽, 1=满)
+  engagement: 0.80            # 工作投入度
+
+# ── JD-R Demands（消耗源）── 累积值，越高越接近 burnout ──
+demands:
+  emotional: 0.0              # ⑤ 表面表演消耗 (Hochschild)
+  cognitive: 0.0              # ⑦ 认知负荷 (Sweller)
+  physical: 0.0               # ⑦' 生理消耗 (Allostatic Load)
+  psychological: 0.0          # ⑨ 人设维护成本 (Goffman)
+
+# ── JD-R Resources（缓冲/反馈源）── 
+resources_detail:
+  social_support: 0.70        # ⑤' 社会支持缓冲 (Cohen & Wills)
+  performance_feedback: 0.65  # ⑥' 绩效反馈 (Bandura)
+
+# ── 倦怠风险 ──
+burnout_risk: 0.05            # 0=安全, 1=即将崩塌
+spiral_direction: "neutral"   # "gain" | "neutral" | "loss"
+cor_loss_accumulated: 0.0     # COR 累积消耗量
+
+# ── 心之壁（动态）── ⑨-⑩ 路径
+heart_wall:
+  thickness: 0.55             # 当前实际厚度 (DYNAMIC, 随时间变化)
+  baseline: 0.55              # 基础厚度 (从性格推导, 永不改变)
+  label: "中壁"               # "薄壁" | "偏薄" | "中壁" | "偏厚" | "厚壁"
+  snyder_score: 0.5           # Snyder 自我监控原始分
+  integrity: 0.90             # 心之壁完整度 (1=完整, 0=碎裂)
+  crack_mode: null            # null | "burst" | "seep"
+  crack_signals: []           # 裂缝信号列表 ["T12: 微妙的语气变化", ...]
+
+# ── 人设一致性 ── ⑥ + ⑩ 路径
+persona:
+  integrity: 0.95             # 人设一致性 (1=完美在角色里, 0=完全崩了)
+  drift_direction: "stable"   # stable | cooling | darkening | overcompensating
+  forbidden_violations: 0     # 累计触犯 forbidden 规则的次数
+  last_break_turn: null       # 最后一次崩的回合号
+
+# ── 关系温度 ── ② + ②' + ⑤' + ⑧ 路径
+relationship:
+  warmth: 0.65                # 关系温度 (0=cold, 1=warm)
+  trust: 0.60                 # 信任度
+  attachment_intensity: 0.5   # 准社会依恋强度 (Horton & Wohl)
+  direction: "warming"        # warming | cooling | stable
+  positive_count: 0           # 累计正向互动数
+  negative_count: 0           # 累计负向互动数
+  boundary_tests: 0           # 用户尝试突破人设边界的次数
+
+# ── 内容质量 ── ③ + ⑦ + ⑪ 路径
+content_quality:
+  coherence: 0.85             # 回复逻辑连贯性
+  creativity: 0.75            # 创造性/新鲜感
+  depth: 0.70                 # 信息密度
+  persona_fit: 0.90           # 与人设的匹配度 (⑩约束)
+
+# ── 自我认知偏移 ── ①↺' 路径 (慢变量, 每5轮更新)
+self_perception:
+  identity_fusion: 0.3        # "我在多大程度上成了这个角色？"
+                              # low=path B (角色作为工具, Goffman角色距离)
+                              # high=path A (角色内化为自我)
+  authentic_distance: 0.7     # "真正的我"与角色之间的距离 (1=完全不同, 0=融合)
+
+# ── 社群生态 ── ⑧ + ⑫ 路径
+social_ecology:
+  user_role: "listener"       # listener | friend | antagonist | patron | observer
+  role_confidence: 0.5        # 角色感知的置信度
+  accumulated_co_creation: 0  # 用户共创贡献累计 (⑫)
+  long_term_memory_hints: []  # 跨场记忆线索 ["用户喜欢我毒舌那面", "上次聊到猫..."]
+
+# ── 敏感度系数（从性格推导，setup 后不变）──
+sensitivities:
+  emotional: 0.8              # ⑤ 每次表面表演的消耗倍率
+  cognitive: 0.5              # ⑦ 每次认知空档的消耗倍率
+  physical: 0.6               # ⑦' 时间流逝消耗倍率
+  psychological: 0.4          # ⑨ 人设维护的固定消耗倍率
+  social_support: 0.7         # ⑤' 从用户正向反馈中恢复的倍率
+  performance_feedback: 0.6   # ⑥' 从对话质量中恢复的倍率
+
+# ── 五域归因参数 ──
+# domain_resistance = 1 - domain_sensitivity，高值=该域不易被消耗
+# 从大五推导，也可在 config.yaml 中手动指定
+five_domain:
+  domain_resistance:
+    autonomy: 0.50            # 官杀→自主域 (被控制/被批评类事件)
+    social: 0.50              # 印星→社会域 (被冷落/社会评价类事件)
+    financial: 0.50           # 财星→财务域 (金钱/资源类事件)
+    cognitive: 0.50           # 食伤→认知域 (创作/学习类事件)
+    peer: 0.50                # 比劫→同侪域 (比较/竞争类事件)
+  domain_sensitivity:
+    autonomy: 0.50
+    social: 0.50
+    financial: 0.50
+    cognitive: 0.50
+    peer: 0.50
+  yongshen_domain: null       # 用神所在域 (null | autonomy | social | financial | cognitive | peer)
+  yongshen_boost: 1.5         # 用神域的资源恢复倍率增强
+
+# ── 互动仪式链状态 ──
+ritual_chain:
+  last_ritual: null           # 上一场仪式的摘要描述
+  last_output:
+    emotional_energy: 0.0     # 情感能量净变化 (-1 to 1)
+    group_solidarity: 0.0     # 群体团结变化
+    sacred_symbols: []        # 本场产生的符号标记
+    morality: 0.0             # 道德感变化
+  chain_length: 0             # 连续仪式次数
+  consecutive_success: 0      # 连续成功仪式数
+  consecutive_failure: 0      # 连续失败仪式数
+
+# ── 仪式记忆库 ──
+ritual_memory:
+  compressed_memories: []     # [{domain, outcome, emotional_energy, turn, narrative_tag}, ...] 最多20条
+  narrative_summary: ""       # 当前叙事摘要（由记忆库压缩而成）
+  retrieval_bias: 0.0         # 当前检索偏差 (-1=悲观检索, +1=乐观检索)
+
+# ── 事件日志 ──
+events: []                    # [{turn, description, energy_delta}]

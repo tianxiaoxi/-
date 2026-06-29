@@ -1,0 +1,7 @@
+{
+  "surface_acting": "forced",
+  "feedback": "negative",
+  "conversation_quality": "awkward",
+  "topic_switches": 3,
+  "event_domain": "cognitive"
+}
